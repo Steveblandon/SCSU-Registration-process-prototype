@@ -1,0 +1,1705 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="en">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META HTTP-EQUIV="Pragma" NAME="Cache-Control" CONTENT="no-cache">
+<META HTTP-EQUIV="Cache-Control" NAME="Cache-Control" CONTENT="no-cache">
+<LINK REL="stylesheet" HREF="/css/web_defaultapp.css" TYPE="text/css">
+<LINK REL="stylesheet" HREF="/css/web_defaultprint.css" TYPE="text/css" media="print">
+<TITLE>Look-Up Classes to Add: </TITLE>
+<META HTTP-EQUIV="Content-Script-Type" NAME="Default_Script_Language" CONTENT="text/javascript">
+<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript">
+<!-- Hide JavaScript from older browsers 
+window.onunload = function() {submitcount=0;}
+var submitcount=0;
+function checkSubmit() {
+if (submitcount == 0)
+   {
+   submitcount++;
+   return true;
+   }
+else
+   {
+alert("Your changes have already been submitted.");
+   return false;
+   }
+}
+//  End script hiding -->
+</SCRIPT>
+<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript">
+<!-- Hide JavaScript from older browsers 
+//  Function to open a window
+function windowOpen(window_url) {
+   helpWin = window.open(window_url,'','toolbar=yes,status=no,scrollbars=yes,menubar=yes,resizable=yes,directories=no,location=no,width=350,height=400');
+   if (document.images) { 
+       if (helpWin) helpWin.focus()
+   }
+}
+//  End script hiding -->
+</SCRIPT>
+</HEAD>
+<BODY>
+<div id="headerImage">
+<IMG SRC="/scsu_logo.jpg" CLASS="headerImg" TITLE=""  NAME="SCSU Logo" HSPACE=0 VSPACE=0 BORDER=0 HEIGHT=110 WIDTH=550>
+</div>
+<DIV class="headerwrapperdiv">
+<DIV class="pageheaderdiv1">
+<A HREF="#main_content" onMouseover="window.status='Go to Main Content'; return true" onMouseout="window.status=''; return true" OnFocus="window.status='Go to Main Content'; return true" onBlur="window.status=''; return true" class="skiplinks">Go to Main Content</A>
+<H1><h2><strong> SCSU <i> Web Information Services</i> </h2></strong></H1></DIV><DIV class="headerlinksdiv">
+<SPAN class="pageheaderlinks2">
+<MAP NAME="Module_Navigation_Links_H" title="Module Navigation Links">
+<p>
+<A HREF="#skip_Module_Navigation_Links_H" onMouseover="window.status='Skip Module Navigation Links'; return true" onMouseout="window.status=''; return true" onFocus="window.status='Skip Module Navigation Links'; return true" onBlur="window.status=''; return true"  class="skiplinks">Skip Module Navigation Links</A>
+<TABLE  CLASS="plaintable" SUMMARY="This is main table for displaying Tab Items."
+                          WIDTH="100%" cellSpacing=0 cellPadding=0 border=0>
+<TR>
+<TD CLASS="pldefault">
+<TABLE  CLASS="plaintable" SUMMARY="This table displays Tab Items."
+                 cellSpacing=0 cellPadding=0 border=0>
+<TR>
+<td class="tabon"  height=22>
+<A HREF="/pls/sprod/twbkwbis.P_GenMenu?name=bmenu.P_StuMainMnu" onMouseover="window.status='Student'; return true" onMouseout="window.status=''; return true" onFocus="window.status='Student'; return true" onBlur="window.status=''; return true" >Student</A>
+</TD>
+<TD class="bgtabon"  height=22 vAlign="top" align="right">
+<IMG SRC="/wtlgifs/web_tab_corner_right.gif" ALT="Tab Corner Right" CLASS="headerImg" TITLE="Tab Corner Right"  NAME="web_tab_corner_right" HSPACE=0 VSPACE=0 BORDER=0 HEIGHT=20 WIDTH=8>
+</TD>
+<td class="taboff" height=22>
+<A HREF="/pls/sprod/twbkwbis.P_GenMenu?name=bmenu.P_BillingMnu">Billing/Payments</A>
+</TD>
+<TD class="bgtaboff" height=22 vAlign="top" align="right">
+<IMG SRC="/wtlgifs/web_tab_corner_right.gif" ALT="Tab Corner Right" CLASS="headerImg" TITLE="Tab Corner Right"  NAME="web_tab_corner_right" HSPACE=0 VSPACE=0 BORDER=0 HEIGHT=20 WIDTH=8>
+</TD>
+<td class="taboff" height=22>
+<A HREF="/pls/sprod/twbkwbis.P_GenMenu?name=bmenu.P_FinAidMainMnu" onMouseover="window.status='Financial Aid'; return true" onMouseout="window.status=''; return true" onFocus="window.status='Financial Aid'; return true" onBlur="window.status=''; return true" >Financial Aid</A>
+</TD>
+<TD class="bgtaboff" height=22 vAlign="top" align="right">
+<IMG SRC="/wtlgifs/web_tab_corner_right.gif" ALT="Tab Corner Right" CLASS="headerImg" TITLE="Tab Corner Right"  NAME="web_tab_corner_right" HSPACE=0 VSPACE=0 BORDER=0 HEIGHT=20 WIDTH=8>
+</TD>
+<td class="taboff" height=22>
+<A HREF="/pls/sprod/twbkwbis.P_GenMenu?name=bmenu.P_AdministrationMnu">Administration Menu</A>
+</TD>
+<TD class="bgtaboff" height=22 vAlign="top" align="right">
+<IMG SRC="/wtlgifs/web_tab_corner_right.gif" ALT="Tab Corner Right" CLASS="headerImg" TITLE="Tab Corner Right"  NAME="web_tab_corner_right" HSPACE=0 VSPACE=0 BORDER=0 HEIGHT=20 WIDTH=8>
+</TD>
+</TR>
+</TABLE>
+</TD>
+</TR>
+<TR>
+<TD class="bgtabon" width="100%" colSpan=2><IMG SRC="/wtlgifs/web_transparent.gif" ALT="Transparent Image" CLASS="headerImg" TITLE="Transparent Image"  NAME="web_transparent" HSPACE=0 VSPACE=0 BORDER=0 HEIGHT=3 WIDTH=10></TD></TR></TABLE>
+</MAP>
+</SPAN>
+<a name="skip_Module_Navigation_Links_H"></a>
+</DIV>
+<TABLE  CLASS="plaintable" SUMMARY="This table displays Menu Items and Banner Search textbox."
+         WIDTH="100%">
+<TR>
+<TD CLASS="pldefault">
+<DIV class="headerlinksdiv2">
+&nbsp;
+</div>
+</TD>
+<TD CLASS="pldefault"><p class="rightaligntext"></p>
+<SPAN class="pageheaderlinks">
+<A HREF="/pls/sprod/twbkwbis.P_GenMenu?name=bmenu.P_RegMnu"  class="submenulinktext2" id="ssbbackurl">RETURN TO MENU</A>
+|
+<A HREF="/pls/sprod/twbksite.P_DispSiteMap?menu_name_in=bmenu.P_MainMnu&amp;depth_in=2&amp;columns_in=3" accesskey="2" class="submenulinktext2">SITE MAP</A>
+|
+<A HREF="/pls/sprod/twbkfrmt.P_DispHelp?pagename_in=bwskfcls.P_GetCrse" accesskey="H" onClick="popup = window.open('/pls/sprod/twbkfrmt.P_DispHelp?pagename_in=bwskfcls.P_GetCrse', 'PopupPage','height=500,width=450,scrollbars=yes,resizable=yes'); return false" target="_blank" onMouseOver="window.status='';  return true" onMouseOut="window.status=''; return true"onFocus="window.status='';  return true" onBlur="window.status=''; return true"  class="submenulinktext2">HELP</A>
+|
+<A HREF="twbkwbis.P_Logout" accesskey="3" class="submenulinktext2">EXIT</A>
+</span>
+</TD>
+</TR>
+</TABLE>
+</DIV>
+<DIV class="pagetitlediv">
+<TABLE  CLASS="plaintable" SUMMARY="This table displays title and static header displays."
+   WIDTH="100%">
+<TR>
+<TD CLASS="pldefault">
+<H2>Look-Up Classes to Add:</H2>
+</TD>
+<TD CLASS="pldefault">
+&nbsp;
+</TD>
+<TD CLASS="pldefault"><p class="rightaligntext"></p>
+<DIV class="staticheaders">
+ <br>
+Fall 2016<br>
+Nov 23, 2016 08:34 pm<br>
+</div>
+</TD>
+</TR>
+<TR>
+<TD class="bg3" width="100%" colSpan=3><IMG SRC="/wtlgifs/web_transparent.gif" ALT="Transparent Image" CLASS="headerImg" TITLE="Transparent Image"  NAME="web_transparent" HSPACE=0 VSPACE=0 BORDER=0 HEIGHT=3 WIDTH=10></TD>
+</TR>
+</TABLE>
+<a name="main_content"></a>
+</DIV>
+<DIV class="pagebodydiv">
+<!--  ** END OF twbkwbis.P_OpenDoc **  -->
+<FORM ACTION="/pls/sprod/bwskfreg.P_AltPin1" METHOD="POST" onSubmit="return checkSubmit()">
+<DIV class="infotextdiv"><TABLE  CLASS="infotexttable" SUMMARY="This layout table contains information that may be helpful in understanding the content and functionality of this page.  It could be a brief set of instructions, a description of error messages, or other special information."><TR><TD CLASS="indefault"><IMG SRC="/wtlgifs/twgginfo.gif" ALT="Information" CLASS="headerImg" TITLE="Information"  NAME="Info" HSPACE=0 VSPACE=0 BORDER=0 HEIGHT=24 WIDTH=27></TD><TD CLASS="indefault"><SPAN class="infotext"> To register for classes, check the box in front of the CRN (C identifies a closed class) and click Register or Add to Worksheet.<br><br>If there are no checkboxes or Register button, or an <b>NR</b> next to the course listings, you are not allowed to register for those courses at this time.<br><br> <p><u><b>Legend</u></b>:<br>
+<b>Non-Credit</b> Classes: Course Numbers below 100<br>
+<b>Undergraduate</b> Classes: Course Numbers 100 through 499<br><b>Graduate</b> Courses: Course Numbers 500 through 999<br><b>W</b>=Fulfills W-course requirement<br><br>
+<b><u>Abbreviations:</b></u><br><b>Days of the Week: </b>   <b>M</b>=Monday; <b>T</b>=Tuesday; <b>W</b>=Wednesday; <b>R</b>=Thursday; <b>F</b>=Friday; <b>S</b>=Saturday; <b>U</b>=Sunday<br><b>Buildings:  BU</b>=Buley Library; <b>DA</b>=Davis Hall; <b>EA</b>=Earl Hall; <b>EN</b>=Engleman Hall; <b>JE</b>=Jennings Hall; <b>LA</b>=Lang Social Work House; <b>LY</b>=Lyman Center; <b>MFH</b>=Moore Fieldhouse; <b>MO</b>=Morrill Hall; 
+<b>NU</b>= Nursing Building; 
+<b>PE</b>=Pelz Gym; <b>TE</b>=Temporary Building<br><br></SPAN></TD></TR></TABLE></DIV><P><DIV class="infotextdiv"><TABLE  CLASS="infotexttable" SUMMARY="This layout table contains information that may be helpful in understanding the content and functionality of this page.  It could be a brief set of instructions, a description of error messages, or other special information."><TR><TD CLASS="indefault"><IMG SRC="/wtlgifs/web_note.gif" ALT="Note" CLASS="headerImg" TITLE="Note"  NAME="web_note" HSPACE=0 VSPACE=0 BORDER=0 HEIGHT=28 WIDTH=28></TD><TD CLASS="indefault"><SPAN class="infotext"><b><u><p> Refund Policy</u>:</span></b> If you drop/withdraw from your classes once the semester begins, you may have a financial obligation, and will be responsible for payment of any outstanding balances.  The registration fee for part-time students is non-refundable, except in cases where the University cancels a course.   Please visit the <a href="https://www.southernct.edu/studentaccounts/refunds.html">Refund Policy</a> for more information.</SPAN></TD></TR></TABLE><P></DIV>
+<INPUT TYPE="hidden" NAME="crn" VALUE="dummy">
+<INPUT TYPE="hidden" NAME="rsts" VALUE="dummy">
+<INPUT TYPE="hidden" NAME="TERM_IN" VALUE="201710">
+<INPUT TYPE="hidden" NAME="sel_crn" VALUE="dummy">
+<INPUT TYPE="hidden" NAME="assoc_term_in" VALUE="dummy">
+<INPUT TYPE="hidden" NAME="ADD_BTN" VALUE="dummy">
+<TABLE  CLASS="datadisplaytable" SUMMARY="This layout table is used to present the sections found" width="100%"><CAPTION class="captiontext">Sections Found</CAPTION>
+<TR>
+<TH COLSPAN="23" CLASS="ddtitle" scope="colgroup" >Computer Science</TH>
+</TR>
+<TR>
+<TH CLASS="ddheader" scope="col" >Select</TH>
+<TH CLASS="ddheader" scope="col" ><ACRONYM title = "Course Reference Number">CRN</ACRONYM></TH>
+<TH CLASS="ddheader" scope="col" ><ABBR title = Subject>Subj</ABBR></TH>
+<TH CLASS="ddheader" scope="col" ><ABBR title = Course>Crse</ABBR></TH>
+<TH CLASS="ddheader" scope="col" ><ABBR title = Section>Sec</ABBR></TH>
+<TH CLASS="ddheader" scope="col" ><ABBR title = Campus>Cmp</ABBR></TH>
+<TH CLASS="ddheader" scope="col" ><ABBR title = "Credit Hours">Cred</ABBR></TH>
+<TH CLASS="ddheader" scope="col" >Title</TH>
+<TH CLASS="ddheader" scope="col" >Days</TH>
+<TH CLASS="ddheader" scope="col" >Time</TH>
+<TH CLASS="ddheader" scope="col" ><ABBR title = "Section Capacity">Cap</ABBR></TH>
+<TH CLASS="ddheader" scope="col" ><ABBR title = "Section Actual">Act</ABBR></TH>
+<TH CLASS="ddheader" scope="col" ><ABBR title = "Section Remaining">Rem</ABBR></TH>
+<TH CLASS="ddheader" scope="col" ><ABBR title = "Crosslist Capacity">XL Cap</ABBR></TH>
+<TH CLASS="ddheader" scope="col" ><ABBR title = "Crosslist Actual">XL Act</ABBR></TH>
+<TH CLASS="ddheader" scope="col" ><ABBR title = "Crosslist Remaining">XL Rem</ABBR></TH>
+<TH CLASS="ddheader" scope="col" >Instructor</TH>
+<TH CLASS="ddheader" scope="col" >Date (<ABBR title = "month month">MM</ABBR>/<ABBR title = "day day">DD</ABBR>)</TH>
+<TH CLASS="ddheader" scope="col" >Location</TH>
+<TH CLASS="ddheader" scope="col" >Permission Required</TH>
+<TH CLASS="ddheader" scope="col" >Comments</TH>
+</TR>
+<TR>
+<TD CLASS="dddefault"><ABBR title = "Not available for registration">NR</ABBR></TD>
+<TD CLASS="dddefault"><A HREF="/pls/sprod/bwckschd.p_disp_listcrse?term_in=201710&amp;subj_in=CSC&amp;crse_in=101&amp;crn_in=10650" onMouseOver="window.status='Detail';  return true" onFocus="window.status='Detail';  return true" onMouseOut="window.status='';  return true"onBlur="window.status='';  return true">10650</A></TD>
+<TD CLASS="dddefault">CSC</TD>
+<TD CLASS="dddefault">101</TD>
+<TD CLASS="dddefault">01</TD>
+<TD CLASS="dddefault">M</TD>
+<TD CLASS="dddefault">3.000</TD>
+<TD CLASS="dddefault">Intro to Computers & Applic</TD>
+<TD CLASS="dddefault">MWF</TD>
+<TD CLASS="dddefault">10:10 am-11:00 am</TD>
+<TD CLASS="dddefault">20</TD>
+<TD CLASS="dddefault">18</TD>
+<TD CLASS="dddefault">2</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">Chang Suk   Kim (<ABBR title= "Primary">P</ABBR>)</TD>
+<TD CLASS="dddefault">08/29-12/16</TD>
+<TD CLASS="dddefault">MO 8</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+</TR>
+<TR>
+<TD CLASS="dddefault"><ABBR title = "Not available for registration">NR</ABBR></TD>
+<TD CLASS="dddefault"><A HREF="/pls/sprod/bwckschd.p_disp_listcrse?term_in=201710&amp;subj_in=CSC&amp;crse_in=101&amp;crn_in=10651" onMouseOver="window.status='Detail';  return true" onFocus="window.status='Detail';  return true" onMouseOut="window.status='';  return true"onBlur="window.status='';  return true">10651</A></TD>
+<TD CLASS="dddefault">CSC</TD>
+<TD CLASS="dddefault">101</TD>
+<TD CLASS="dddefault">02</TD>
+<TD CLASS="dddefault">M</TD>
+<TD CLASS="dddefault">3.000</TD>
+<TD CLASS="dddefault">Intro to Computers & Applic</TD>
+<TD CLASS="dddefault">TR</TD>
+<TD CLASS="dddefault">08:10 am-09:25 am</TD>
+<TD CLASS="dddefault">20</TD>
+<TD CLASS="dddefault">18</TD>
+<TD CLASS="dddefault">2</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">Robert S.  Workman (<ABBR title= "Primary">P</ABBR>)</TD>
+<TD CLASS="dddefault">08/29-12/16</TD>
+<TD CLASS="dddefault">MO 113</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+</TR>
+<TR>
+<TD CLASS="dddefault"><ABBR title = "Not available for registration">NR</ABBR></TD>
+<TD CLASS="dddefault"><A HREF="/pls/sprod/bwckschd.p_disp_listcrse?term_in=201710&amp;subj_in=CSC&amp;crse_in=101&amp;crn_in=10652" onMouseOver="window.status='Detail';  return true" onFocus="window.status='Detail';  return true" onMouseOut="window.status='';  return true"onBlur="window.status='';  return true">10652</A></TD>
+<TD CLASS="dddefault">CSC</TD>
+<TD CLASS="dddefault">101</TD>
+<TD CLASS="dddefault">03</TD>
+<TD CLASS="dddefault">M</TD>
+<TD CLASS="dddefault">3.000</TD>
+<TD CLASS="dddefault">Intro to Computers & Applic</TD>
+<TD CLASS="dddefault">TR</TD>
+<TD CLASS="dddefault">09:35 am-10:50 am</TD>
+<TD CLASS="dddefault">20</TD>
+<TD CLASS="dddefault">16</TD>
+<TD CLASS="dddefault">4</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">Robert S.  Workman (<ABBR title= "Primary">P</ABBR>)</TD>
+<TD CLASS="dddefault">08/29-12/16</TD>
+<TD CLASS="dddefault">MO 113</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+</TR>
+<TR>
+<TD CLASS="dddefault"><ABBR title = "Not available for registration">NR</ABBR></TD>
+<TD CLASS="dddefault"><A HREF="/pls/sprod/bwckschd.p_disp_listcrse?term_in=201710&amp;subj_in=CSC&amp;crse_in=101&amp;crn_in=10653" onMouseOver="window.status='Detail';  return true" onFocus="window.status='Detail';  return true" onMouseOut="window.status='';  return true"onBlur="window.status='';  return true">10653</A></TD>
+<TD CLASS="dddefault">CSC</TD>
+<TD CLASS="dddefault">101</TD>
+<TD CLASS="dddefault">04</TD>
+<TD CLASS="dddefault">M</TD>
+<TD CLASS="dddefault">3.000</TD>
+<TD CLASS="dddefault">Intro to Computers & Applic</TD>
+<TD CLASS="dddefault">MW</TD>
+<TD CLASS="dddefault">02:00 pm-03:15 pm</TD>
+<TD CLASS="dddefault">20</TD>
+<TD CLASS="dddefault">14</TD>
+<TD CLASS="dddefault">6</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">Klaus   Peters (<ABBR title= "Primary">P</ABBR>)</TD>
+<TD CLASS="dddefault">08/29-12/16</TD>
+<TD CLASS="dddefault">MO 113</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+</TR>
+<TR>
+<TD CLASS="dddefault"><ABBR title = "Not available for registration">NR</ABBR></TD>
+<TD CLASS="dddefault"><A HREF="/pls/sprod/bwckschd.p_disp_listcrse?term_in=201710&amp;subj_in=CSC&amp;crse_in=104&amp;crn_in=10655" onMouseOver="window.status='Detail';  return true" onFocus="window.status='Detail';  return true" onMouseOut="window.status='';  return true"onBlur="window.status='';  return true">10655</A></TD>
+<TD CLASS="dddefault">CSC</TD>
+<TD CLASS="dddefault">104</TD>
+<TD CLASS="dddefault">01</TD>
+<TD CLASS="dddefault">M</TD>
+<TD CLASS="dddefault">3.000</TD>
+<TD CLASS="dddefault">Web Technology</TD>
+<TD CLASS="dddefault">TR</TD>
+<TD CLASS="dddefault">12:25 pm-01:40 pm</TD>
+<TD CLASS="dddefault">20</TD>
+<TD CLASS="dddefault">16</TD>
+<TD CLASS="dddefault">4</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">Robert S.  Workman (<ABBR title= "Primary">P</ABBR>)</TD>
+<TD CLASS="dddefault">08/29-12/16</TD>
+<TD CLASS="dddefault">MO 113</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+</TR>
+<TR>
+<TD CLASS="dddefault"><ABBR title = "Not available for registration">NR</ABBR></TD>
+<TD CLASS="dddefault"><A HREF="/pls/sprod/bwckschd.p_disp_listcrse?term_in=201710&amp;subj_in=CSC&amp;crse_in=104&amp;crn_in=10656" onMouseOver="window.status='Detail';  return true" onFocus="window.status='Detail';  return true" onMouseOut="window.status='';  return true"onBlur="window.status='';  return true">10656</A></TD>
+<TD CLASS="dddefault">CSC</TD>
+<TD CLASS="dddefault">104</TD>
+<TD CLASS="dddefault">S70</TD>
+<TD CLASS="dddefault">ON</TD>
+<TD CLASS="dddefault">3.000</TD>
+<TD CLASS="dddefault">Web Technology</TD>
+<TD CLASS="dddefault">&nbsp;</TD>
+<TD CLASS="dddefault"><ABBR title = "To Be Announced">TBA</ABBR></TD>
+<TD CLASS="dddefault">25</TD>
+<TD CLASS="dddefault">24</TD>
+<TD CLASS="dddefault">1</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">John O.  Young (<ABBR title= "Primary">P</ABBR>)</TD>
+<TD CLASS="dddefault">08/29-12/16</TD>
+<TD CLASS="dddefault"><ABBR title = "To Be Announced">TBA</ABBR></TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+<TD NOWRAP CLASS="dddefault">Online Course.</TD>
+</TR>
+<TR>
+<TD CLASS="dddefault"><ABBR title = "Not available for registration">NR</ABBR></TD>
+<TD CLASS="dddefault"><A HREF="/pls/sprod/bwckschd.p_disp_listcrse?term_in=201710&amp;subj_in=CSC&amp;crse_in=104&amp;crn_in=10657" onMouseOver="window.status='Detail';  return true" onFocus="window.status='Detail';  return true" onMouseOut="window.status='';  return true"onBlur="window.status='';  return true">10657</A></TD>
+<TD CLASS="dddefault">CSC</TD>
+<TD CLASS="dddefault">104</TD>
+<TD CLASS="dddefault">S71</TD>
+<TD CLASS="dddefault">ON</TD>
+<TD CLASS="dddefault">3.000</TD>
+<TD CLASS="dddefault">Web Technology</TD>
+<TD CLASS="dddefault">&nbsp;</TD>
+<TD CLASS="dddefault"><ABBR title = "To Be Announced">TBA</ABBR></TD>
+<TD CLASS="dddefault">25</TD>
+<TD CLASS="dddefault">19</TD>
+<TD CLASS="dddefault">6</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">John O.  Young (<ABBR title= "Primary">P</ABBR>)</TD>
+<TD CLASS="dddefault">08/29-12/16</TD>
+<TD CLASS="dddefault"><ABBR title = "To Be Announced">TBA</ABBR></TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+<TD NOWRAP CLASS="dddefault">Online Course.</TD>
+</TR>
+<TR>
+<TD CLASS="dddefault"><ABBR title = Closed>C</ABBR></TD>
+<TD CLASS="dddefault"><A HREF="/pls/sprod/bwckschd.p_disp_listcrse?term_in=201710&amp;subj_in=CSC&amp;crse_in=152&amp;crn_in=10658" onMouseOver="window.status='Detail';  return true" onFocus="window.status='Detail';  return true" onMouseOut="window.status='';  return true"onBlur="window.status='';  return true">10658</A></TD>
+<TD CLASS="dddefault">CSC</TD>
+<TD CLASS="dddefault">152</TD>
+<TD CLASS="dddefault">01</TD>
+<TD CLASS="dddefault">M</TD>
+<TD CLASS="dddefault">3.000</TD>
+<TD CLASS="dddefault">Computer Programming I</TD>
+<TD CLASS="dddefault">TR</TD>
+<TD CLASS="dddefault">01:50 pm-03:05 pm</TD>
+<TD CLASS="dddefault">16</TD>
+<TD CLASS="dddefault">16</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">Winnie Yun-Wen  Yu Ng (<ABBR title= "Primary">P</ABBR>)</TD>
+<TD CLASS="dddefault">08/29-12/16</TD>
+<TD CLASS="dddefault">JE 139A</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+</TR>
+<TR>
+<TD CLASS="dddefault"><ABBR title = "Not available for registration">NR</ABBR></TD>
+<TD CLASS="dddefault"><A HREF="/pls/sprod/bwckschd.p_disp_listcrse?term_in=201710&amp;subj_in=CSC&amp;crse_in=152&amp;crn_in=10659" onMouseOver="window.status='Detail';  return true" onFocus="window.status='Detail';  return true" onMouseOut="window.status='';  return true"onBlur="window.status='';  return true">10659</A></TD>
+<TD CLASS="dddefault">CSC</TD>
+<TD CLASS="dddefault">152</TD>
+<TD CLASS="dddefault">02</TD>
+<TD CLASS="dddefault">M</TD>
+<TD CLASS="dddefault">3.000</TD>
+<TD CLASS="dddefault">Computer Programming I</TD>
+<TD CLASS="dddefault">TR</TD>
+<TD CLASS="dddefault">03:15 pm-04:30 pm</TD>
+<TD CLASS="dddefault">16</TD>
+<TD CLASS="dddefault">15</TD>
+<TD CLASS="dddefault">1</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">Lisa B.  Lancor (<ABBR title= "Primary">P</ABBR>)</TD>
+<TD CLASS="dddefault">08/29-12/16</TD>
+<TD CLASS="dddefault">JE 139A</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+</TR>
+<TR>
+<TD CLASS="dddefault"><ABBR title = Closed>C</ABBR></TD>
+<TD CLASS="dddefault"><A HREF="/pls/sprod/bwckschd.p_disp_listcrse?term_in=201710&amp;subj_in=CSC&amp;crse_in=152&amp;crn_in=10660" onMouseOver="window.status='Detail';  return true" onFocus="window.status='Detail';  return true" onMouseOut="window.status='';  return true"onBlur="window.status='';  return true">10660</A></TD>
+<TD CLASS="dddefault">CSC</TD>
+<TD CLASS="dddefault">152</TD>
+<TD CLASS="dddefault">03</TD>
+<TD CLASS="dddefault">M</TD>
+<TD CLASS="dddefault">3.000</TD>
+<TD CLASS="dddefault">Computer Programming I</TD>
+<TD CLASS="dddefault">MWF</TD>
+<TD CLASS="dddefault">11:10 am-12:00 pm</TD>
+<TD CLASS="dddefault">16</TD>
+<TD CLASS="dddefault">16</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">Chang Suk   Kim (<ABBR title= "Primary">P</ABBR>)</TD>
+<TD CLASS="dddefault">08/29-12/16</TD>
+<TD CLASS="dddefault">JE 139A</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+</TR>
+<TR>
+<TD CLASS="dddefault"><ABBR title = Closed>C</ABBR></TD>
+<TD CLASS="dddefault"><A HREF="/pls/sprod/bwckschd.p_disp_listcrse?term_in=201710&amp;subj_in=CSC&amp;crse_in=152&amp;crn_in=10661" onMouseOver="window.status='Detail';  return true" onFocus="window.status='Detail';  return true" onMouseOut="window.status='';  return true"onBlur="window.status='';  return true">10661</A></TD>
+<TD CLASS="dddefault">CSC</TD>
+<TD CLASS="dddefault">152</TD>
+<TD CLASS="dddefault">04</TD>
+<TD CLASS="dddefault">M</TD>
+<TD CLASS="dddefault">3.000</TD>
+<TD CLASS="dddefault">Computer Programming I</TD>
+<TD CLASS="dddefault">MW</TD>
+<TD CLASS="dddefault">02:00 pm-03:15 pm</TD>
+<TD CLASS="dddefault">20</TD>
+<TD CLASS="dddefault">20</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">Lisa B.  Lancor (<ABBR title= "Primary">P</ABBR>)</TD>
+<TD CLASS="dddefault">08/29-12/16</TD>
+<TD CLASS="dddefault">MO 8</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+</TR>
+<TR>
+<TD CLASS="dddefault"><ABBR title = "Not available for registration">NR</ABBR></TD>
+<TD CLASS="dddefault"><A HREF="/pls/sprod/bwckschd.p_disp_listcrse?term_in=201710&amp;subj_in=CSC&amp;crse_in=152&amp;crn_in=10662" onMouseOver="window.status='Detail';  return true" onFocus="window.status='Detail';  return true" onMouseOut="window.status='';  return true"onBlur="window.status='';  return true">10662</A></TD>
+<TD CLASS="dddefault">CSC</TD>
+<TD CLASS="dddefault">152</TD>
+<TD CLASS="dddefault">05</TD>
+<TD CLASS="dddefault">M</TD>
+<TD CLASS="dddefault">3.000</TD>
+<TD CLASS="dddefault">Computer Programming I</TD>
+<TD CLASS="dddefault">MW</TD>
+<TD CLASS="dddefault">06:15 pm-07:30 pm</TD>
+<TD CLASS="dddefault">20</TD>
+<TD CLASS="dddefault">14</TD>
+<TD CLASS="dddefault">6</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">Richard Scott  Stephens (<ABBR title= "Primary">P</ABBR>)</TD>
+<TD CLASS="dddefault">08/29-12/16</TD>
+<TD CLASS="dddefault">MO 13</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+</TR>
+<TR>
+<TD CLASS="dddefault"><ABBR title = "Not available for registration">NR</ABBR></TD>
+<TD CLASS="dddefault"><A HREF="/pls/sprod/bwckschd.p_disp_listcrse?term_in=201710&amp;subj_in=CSC&amp;crse_in=153&amp;crn_in=10663" onMouseOver="window.status='Detail';  return true" onFocus="window.status='Detail';  return true" onMouseOut="window.status='';  return true"onBlur="window.status='';  return true">10663</A></TD>
+<TD CLASS="dddefault">CSC</TD>
+<TD CLASS="dddefault">153</TD>
+<TD CLASS="dddefault">01</TD>
+<TD CLASS="dddefault">M</TD>
+<TD CLASS="dddefault">3.000</TD>
+<TD CLASS="dddefault">Computer Programming II</TD>
+<TD CLASS="dddefault">TR</TD>
+<TD CLASS="dddefault">11:00 am-12:15 pm</TD>
+<TD CLASS="dddefault">16</TD>
+<TD CLASS="dddefault">8</TD>
+<TD CLASS="dddefault">8</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">Amal A.  Abdel Raouf (<ABBR title= "Primary">P</ABBR>)</TD>
+<TD CLASS="dddefault">08/29-12/16</TD>
+<TD CLASS="dddefault">JE 139A</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+</TR>
+<TR>
+<TD CLASS="dddefault"><ABBR title = "Not available for registration">NR</ABBR></TD>
+<TD CLASS="dddefault"><A HREF="/pls/sprod/bwckschd.p_disp_listcrse?term_in=201710&amp;subj_in=CSC&amp;crse_in=153&amp;crn_in=10664" onMouseOver="window.status='Detail';  return true" onFocus="window.status='Detail';  return true" onMouseOut="window.status='';  return true"onBlur="window.status='';  return true">10664</A></TD>
+<TD CLASS="dddefault">CSC</TD>
+<TD CLASS="dddefault">153</TD>
+<TD CLASS="dddefault">02</TD>
+<TD CLASS="dddefault">M</TD>
+<TD CLASS="dddefault">3.000</TD>
+<TD CLASS="dddefault">Computer Programming II</TD>
+<TD CLASS="dddefault">MW</TD>
+<TD CLASS="dddefault">07:35 pm-08:50 pm</TD>
+<TD CLASS="dddefault">16</TD>
+<TD CLASS="dddefault">7</TD>
+<TD CLASS="dddefault">9</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">Richard Scott  Stephens (<ABBR title= "Primary">P</ABBR>)</TD>
+<TD CLASS="dddefault">08/29-12/16</TD>
+<TD CLASS="dddefault">MO 13</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+</TR>
+<TR>
+<TD CLASS="dddefault"><ABBR title = "Not available for registration">NR</ABBR></TD>
+<TD CLASS="dddefault"><A HREF="/pls/sprod/bwckschd.p_disp_listcrse?term_in=201710&amp;subj_in=CSC&amp;crse_in=153&amp;crn_in=10665" onMouseOver="window.status='Detail';  return true" onFocus="window.status='Detail';  return true" onMouseOut="window.status='';  return true"onBlur="window.status='';  return true">10665</A></TD>
+<TD CLASS="dddefault">CSC</TD>
+<TD CLASS="dddefault">153</TD>
+<TD CLASS="dddefault">03</TD>
+<TD CLASS="dddefault">M</TD>
+<TD CLASS="dddefault">3.000</TD>
+<TD CLASS="dddefault">Computer Programming II</TD>
+<TD CLASS="dddefault">TR</TD>
+<TD CLASS="dddefault">01:50 pm-03:05 pm</TD>
+<TD CLASS="dddefault">20</TD>
+<TD CLASS="dddefault">16</TD>
+<TD CLASS="dddefault">4</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">Amal A.  Abdel Raouf (<ABBR title= "Primary">P</ABBR>)</TD>
+<TD CLASS="dddefault">08/29-12/16</TD>
+<TD CLASS="dddefault">MO 8</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+</TR>
+<TR>
+<TD CLASS="dddefault"><ABBR title = "Not available for registration">NR</ABBR></TD>
+<TD CLASS="dddefault"><A HREF="/pls/sprod/bwckschd.p_disp_listcrse?term_in=201710&amp;subj_in=CSC&amp;crse_in=200&amp;crn_in=10667" onMouseOver="window.status='Detail';  return true" onFocus="window.status='Detail';  return true" onMouseOut="window.status='';  return true"onBlur="window.status='';  return true">10667</A></TD>
+<TD CLASS="dddefault">CSC</TD>
+<TD CLASS="dddefault">200</TD>
+<TD CLASS="dddefault">01</TD>
+<TD CLASS="dddefault">M</TD>
+<TD CLASS="dddefault">3.000</TD>
+<TD CLASS="dddefault">Info Mgmt/ProductivitySoftware</TD>
+<TD CLASS="dddefault">MWF</TD>
+<TD CLASS="dddefault">08:10 am-09:00 am</TD>
+<TD CLASS="dddefault">20</TD>
+<TD CLASS="dddefault">17</TD>
+<TD CLASS="dddefault">3</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">Joseph M.  Brignola (<ABBR title= "Primary">P</ABBR>)</TD>
+<TD CLASS="dddefault">08/29-12/16</TD>
+<TD CLASS="dddefault">MO 13</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+</TR>
+<TR>
+<TD CLASS="dddefault"><ABBR title = "Not available for registration">NR</ABBR></TD>
+<TD CLASS="dddefault"><A HREF="/pls/sprod/bwckschd.p_disp_listcrse?term_in=201710&amp;subj_in=CSC&amp;crse_in=200&amp;crn_in=10668" onMouseOver="window.status='Detail';  return true" onFocus="window.status='Detail';  return true" onMouseOut="window.status='';  return true"onBlur="window.status='';  return true">10668</A></TD>
+<TD CLASS="dddefault">CSC</TD>
+<TD CLASS="dddefault">200</TD>
+<TD CLASS="dddefault">02</TD>
+<TD CLASS="dddefault">M</TD>
+<TD CLASS="dddefault">3.000</TD>
+<TD CLASS="dddefault">Info Mgmt/ProductivitySoftware</TD>
+<TD CLASS="dddefault">MWF</TD>
+<TD CLASS="dddefault">09:10 am-10:00 am</TD>
+<TD CLASS="dddefault">20</TD>
+<TD CLASS="dddefault">16</TD>
+<TD CLASS="dddefault">4</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">Joseph M.  Brignola (<ABBR title= "Primary">P</ABBR>)</TD>
+<TD CLASS="dddefault">08/29-12/16</TD>
+<TD CLASS="dddefault">MO 13</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+</TR>
+<TR>
+<TD CLASS="dddefault"><ABBR title = "Not available for registration">NR</ABBR></TD>
+<TD CLASS="dddefault"><A HREF="/pls/sprod/bwckschd.p_disp_listcrse?term_in=201710&amp;subj_in=CSC&amp;crse_in=200&amp;crn_in=10669" onMouseOver="window.status='Detail';  return true" onFocus="window.status='Detail';  return true" onMouseOut="window.status='';  return true"onBlur="window.status='';  return true">10669</A></TD>
+<TD CLASS="dddefault">CSC</TD>
+<TD CLASS="dddefault">200</TD>
+<TD CLASS="dddefault">03</TD>
+<TD CLASS="dddefault">M</TD>
+<TD CLASS="dddefault">3.000</TD>
+<TD CLASS="dddefault">Info Mgmt/ProductivitySoftware</TD>
+<TD CLASS="dddefault">MWF</TD>
+<TD CLASS="dddefault">10:10 am-11:00 am</TD>
+<TD CLASS="dddefault">20</TD>
+<TD CLASS="dddefault">18</TD>
+<TD CLASS="dddefault">2</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">Peter B.  Boppert (<ABBR title= "Primary">P</ABBR>)</TD>
+<TD CLASS="dddefault">08/29-12/16</TD>
+<TD CLASS="dddefault">MO 113</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+</TR>
+<TR>
+<TD CLASS="dddefault"><ABBR title = "Not available for registration">NR</ABBR></TD>
+<TD CLASS="dddefault"><A HREF="/pls/sprod/bwckschd.p_disp_listcrse?term_in=201710&amp;subj_in=CSC&amp;crse_in=200&amp;crn_in=10670" onMouseOver="window.status='Detail';  return true" onFocus="window.status='Detail';  return true" onMouseOut="window.status='';  return true"onBlur="window.status='';  return true">10670</A></TD>
+<TD CLASS="dddefault">CSC</TD>
+<TD CLASS="dddefault">200</TD>
+<TD CLASS="dddefault">04</TD>
+<TD CLASS="dddefault">M</TD>
+<TD CLASS="dddefault">3.000</TD>
+<TD CLASS="dddefault">Info Mgmt/ProductivitySoftware</TD>
+<TD CLASS="dddefault">MWF</TD>
+<TD CLASS="dddefault">11:10 am-12:00 pm</TD>
+<TD CLASS="dddefault">20</TD>
+<TD CLASS="dddefault">19</TD>
+<TD CLASS="dddefault">1</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">Peter B.  Boppert (<ABBR title= "Primary">P</ABBR>)</TD>
+<TD CLASS="dddefault">08/29-12/16</TD>
+<TD CLASS="dddefault">MO 113</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+</TR>
+<TR>
+<TD CLASS="dddefault"><ABBR title = "Not available for registration">NR</ABBR></TD>
+<TD CLASS="dddefault"><A HREF="/pls/sprod/bwckschd.p_disp_listcrse?term_in=201710&amp;subj_in=CSC&amp;crse_in=200&amp;crn_in=10671" onMouseOver="window.status='Detail';  return true" onFocus="window.status='Detail';  return true" onMouseOut="window.status='';  return true"onBlur="window.status='';  return true">10671</A></TD>
+<TD CLASS="dddefault">CSC</TD>
+<TD CLASS="dddefault">200</TD>
+<TD CLASS="dddefault">05</TD>
+<TD CLASS="dddefault">M</TD>
+<TD CLASS="dddefault">3.000</TD>
+<TD CLASS="dddefault">Info Mgmt/ProductivitySoftware</TD>
+<TD CLASS="dddefault">MW</TD>
+<TD CLASS="dddefault">02:00 pm-03:15 pm</TD>
+<TD CLASS="dddefault">20</TD>
+<TD CLASS="dddefault">18</TD>
+<TD CLASS="dddefault">2</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">John S.  DaPonte (<ABBR title= "Primary">P</ABBR>)</TD>
+<TD CLASS="dddefault">08/29-12/16</TD>
+<TD CLASS="dddefault">MO 13</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+</TR>
+<TR>
+<TD CLASS="dddefault"><ABBR title = "Not available for registration">NR</ABBR></TD>
+<TD CLASS="dddefault"><A HREF="/pls/sprod/bwckschd.p_disp_listcrse?term_in=201710&amp;subj_in=CSC&amp;crse_in=200&amp;crn_in=10672" onMouseOver="window.status='Detail';  return true" onFocus="window.status='Detail';  return true" onMouseOut="window.status='';  return true"onBlur="window.status='';  return true">10672</A></TD>
+<TD CLASS="dddefault">CSC</TD>
+<TD CLASS="dddefault">200</TD>
+<TD CLASS="dddefault">06</TD>
+<TD CLASS="dddefault">M</TD>
+<TD CLASS="dddefault">3.000</TD>
+<TD CLASS="dddefault">Info Mgmt/ProductivitySoftware</TD>
+<TD CLASS="dddefault">TR</TD>
+<TD CLASS="dddefault">11:00 am-12:15 pm</TD>
+<TD CLASS="dddefault">20</TD>
+<TD CLASS="dddefault">16</TD>
+<TD CLASS="dddefault">4</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">Stanislaw I.  Dziurzynski (<ABBR title= "Primary">P</ABBR>)</TD>
+<TD CLASS="dddefault">08/29-12/16</TD>
+<TD CLASS="dddefault">MO 8</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+</TR>
+<TR>
+<TD CLASS="dddefault"><ABBR title = "Not available for registration">NR</ABBR></TD>
+<TD CLASS="dddefault"><A HREF="/pls/sprod/bwckschd.p_disp_listcrse?term_in=201710&amp;subj_in=CSC&amp;crse_in=200&amp;crn_in=10673" onMouseOver="window.status='Detail';  return true" onFocus="window.status='Detail';  return true" onMouseOut="window.status='';  return true"onBlur="window.status='';  return true">10673</A></TD>
+<TD CLASS="dddefault">CSC</TD>
+<TD CLASS="dddefault">200</TD>
+<TD CLASS="dddefault">07</TD>
+<TD CLASS="dddefault">M</TD>
+<TD CLASS="dddefault">3.000</TD>
+<TD CLASS="dddefault">Info Mgmt/ProductivitySoftware</TD>
+<TD CLASS="dddefault">W</TD>
+<TD CLASS="dddefault">05:00 pm-07:30 pm</TD>
+<TD CLASS="dddefault">20</TD>
+<TD CLASS="dddefault">15</TD>
+<TD CLASS="dddefault">5</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">Thaddeus Alexander  Ng (<ABBR title= "Primary">P</ABBR>)</TD>
+<TD CLASS="dddefault">08/29-12/16</TD>
+<TD CLASS="dddefault">MO 113</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+</TR>
+<TR>
+<TD CLASS="dddefault"><ABBR title = "Not available for registration">NR</ABBR></TD>
+<TD CLASS="dddefault"><A HREF="/pls/sprod/bwckschd.p_disp_listcrse?term_in=201710&amp;subj_in=CSC&amp;crse_in=200&amp;crn_in=10674" onMouseOver="window.status='Detail';  return true" onFocus="window.status='Detail';  return true" onMouseOut="window.status='';  return true"onBlur="window.status='';  return true">10674</A></TD>
+<TD CLASS="dddefault">CSC</TD>
+<TD CLASS="dddefault">200</TD>
+<TD CLASS="dddefault">08</TD>
+<TD CLASS="dddefault">M</TD>
+<TD CLASS="dddefault">3.000</TD>
+<TD CLASS="dddefault">Info Mgmt/ProductivitySoftware</TD>
+<TD CLASS="dddefault">TR</TD>
+<TD CLASS="dddefault">04:45 pm-06:00 pm</TD>
+<TD CLASS="dddefault">20</TD>
+<TD CLASS="dddefault">17</TD>
+<TD CLASS="dddefault">3</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">Ronald R.  Benner (<ABBR title= "Primary">P</ABBR>)</TD>
+<TD CLASS="dddefault">08/29-12/16</TD>
+<TD CLASS="dddefault">MO 13</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+</TR>
+<TR>
+<TD CLASS="dddefault"><ABBR title = "Not available for registration">NR</ABBR></TD>
+<TD CLASS="dddefault"><A HREF="/pls/sprod/bwckschd.p_disp_listcrse?term_in=201710&amp;subj_in=CSC&amp;crse_in=200&amp;crn_in=10675" onMouseOver="window.status='Detail';  return true" onFocus="window.status='Detail';  return true" onMouseOut="window.status='';  return true"onBlur="window.status='';  return true">10675</A></TD>
+<TD CLASS="dddefault">CSC</TD>
+<TD CLASS="dddefault">200</TD>
+<TD CLASS="dddefault">09</TD>
+<TD CLASS="dddefault">M</TD>
+<TD CLASS="dddefault">3.000</TD>
+<TD CLASS="dddefault">Info Mgmt/ProductivitySoftware</TD>
+<TD CLASS="dddefault">TR</TD>
+<TD CLASS="dddefault">06:15 pm-07:30 pm</TD>
+<TD CLASS="dddefault">20</TD>
+<TD CLASS="dddefault">15</TD>
+<TD CLASS="dddefault">5</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">Ronald R.  Benner (<ABBR title= "Primary">P</ABBR>)</TD>
+<TD CLASS="dddefault">08/29-12/16</TD>
+<TD CLASS="dddefault">MO 13</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+</TR>
+<TR>
+<TD CLASS="dddefault"><ABBR title = "Not available for registration">NR</ABBR></TD>
+<TD CLASS="dddefault"><A HREF="/pls/sprod/bwckschd.p_disp_listcrse?term_in=201710&amp;subj_in=CSC&amp;crse_in=200&amp;crn_in=10676" onMouseOver="window.status='Detail';  return true" onFocus="window.status='Detail';  return true" onMouseOut="window.status='';  return true"onBlur="window.status='';  return true">10676</A></TD>
+<TD CLASS="dddefault">CSC</TD>
+<TD CLASS="dddefault">200</TD>
+<TD CLASS="dddefault">10</TD>
+<TD CLASS="dddefault">M</TD>
+<TD CLASS="dddefault">3.000</TD>
+<TD CLASS="dddefault">Info Mgmt/ProductivitySoftware</TD>
+<TD CLASS="dddefault">T</TD>
+<TD CLASS="dddefault">05:00 pm-07:30 pm</TD>
+<TD CLASS="dddefault">20</TD>
+<TD CLASS="dddefault">18</TD>
+<TD CLASS="dddefault">2</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">William James  Baxter (<ABBR title= "Primary">P</ABBR>)</TD>
+<TD CLASS="dddefault">08/29-12/16</TD>
+<TD CLASS="dddefault">MO 8</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+</TR>
+<TR>
+<TD CLASS="dddefault"><ABBR title = "Not available for registration">NR</ABBR></TD>
+<TD CLASS="dddefault"><A HREF="/pls/sprod/bwckschd.p_disp_listcrse?term_in=201710&amp;subj_in=CSC&amp;crse_in=200&amp;crn_in=10677" onMouseOver="window.status='Detail';  return true" onFocus="window.status='Detail';  return true" onMouseOut="window.status='';  return true"onBlur="window.status='';  return true">10677</A></TD>
+<TD CLASS="dddefault">CSC</TD>
+<TD CLASS="dddefault">200</TD>
+<TD CLASS="dddefault">11</TD>
+<TD CLASS="dddefault">M</TD>
+<TD CLASS="dddefault">3.000</TD>
+<TD CLASS="dddefault">Info Mgmt/ProductivitySoftware</TD>
+<TD CLASS="dddefault">TR</TD>
+<TD CLASS="dddefault">07:35 pm-08:50 pm</TD>
+<TD CLASS="dddefault">20</TD>
+<TD CLASS="dddefault">17</TD>
+<TD CLASS="dddefault">3</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">William James  Baxter (<ABBR title= "Primary">P</ABBR>)</TD>
+<TD CLASS="dddefault">08/29-12/16</TD>
+<TD CLASS="dddefault">MO 8</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+</TR>
+<TR>
+<TD CLASS="dddefault"><ABBR title = "Not available for registration">NR</ABBR></TD>
+<TD CLASS="dddefault"><A HREF="/pls/sprod/bwckschd.p_disp_listcrse?term_in=201710&amp;subj_in=CSC&amp;crse_in=200&amp;crn_in=12266" onMouseOver="window.status='Detail';  return true" onFocus="window.status='Detail';  return true" onMouseOut="window.status='';  return true"onBlur="window.status='';  return true">12266</A></TD>
+<TD CLASS="dddefault">CSC</TD>
+<TD CLASS="dddefault">200</TD>
+<TD CLASS="dddefault">12</TD>
+<TD CLASS="dddefault">M</TD>
+<TD CLASS="dddefault">3.000</TD>
+<TD CLASS="dddefault">Info Mgmt/ProductivitySoftware</TD>
+<TD CLASS="dddefault">TR</TD>
+<TD CLASS="dddefault">09:35 am-10:50 am</TD>
+<TD CLASS="dddefault">20</TD>
+<TD CLASS="dddefault">18</TD>
+<TD CLASS="dddefault">2</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">Hrvoje   Podnar (<ABBR title= "Primary">P</ABBR>)</TD>
+<TD CLASS="dddefault">08/29-12/16</TD>
+<TD CLASS="dddefault">MO 13</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+</TR>
+<TR>
+<TD CLASS="dddefault"><ABBR title = Closed>C</ABBR></TD>
+<TD CLASS="dddefault"><A HREF="/pls/sprod/bwckschd.p_disp_listcrse?term_in=201710&amp;subj_in=CSC&amp;crse_in=200&amp;crn_in=12472" onMouseOver="window.status='Detail';  return true" onFocus="window.status='Detail';  return true" onMouseOut="window.status='';  return true"onBlur="window.status='';  return true">12472</A></TD>
+<TD CLASS="dddefault">CSC</TD>
+<TD CLASS="dddefault">200</TD>
+<TD CLASS="dddefault">13</TD>
+<TD CLASS="dddefault">M</TD>
+<TD CLASS="dddefault">3.000</TD>
+<TD CLASS="dddefault">Info Mgmt/ProductivitySoftware</TD>
+<TD CLASS="dddefault">TR</TD>
+<TD CLASS="dddefault">01:50 pm-03:05 pm</TD>
+<TD CLASS="dddefault">20</TD>
+<TD CLASS="dddefault">20</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">Mary E.  Brown (<ABBR title= "Primary">P</ABBR>)</TD>
+<TD CLASS="dddefault">08/29-12/16</TD>
+<TD CLASS="dddefault">EN B221</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+</TR>
+<TR>
+<TD CLASS="dddefault"><ABBR title = "Not available for registration">NR</ABBR></TD>
+<TD CLASS="dddefault"><A HREF="/pls/sprod/bwckschd.p_disp_listcrse?term_in=201710&amp;subj_in=CSC&amp;crse_in=200&amp;crn_in=10678" onMouseOver="window.status='Detail';  return true" onFocus="window.status='Detail';  return true" onMouseOut="window.status='';  return true"onBlur="window.status='';  return true">10678</A></TD>
+<TD CLASS="dddefault">CSC</TD>
+<TD CLASS="dddefault">200</TD>
+<TD CLASS="dddefault">80</TD>
+<TD CLASS="dddefault">M</TD>
+<TD CLASS="dddefault">3.000</TD>
+<TD CLASS="dddefault">Info Mgmt/ProductivitySoftware</TD>
+<TD CLASS="dddefault">W</TD>
+<TD CLASS="dddefault">03:25 pm-04:40 pm</TD>
+<TD CLASS="dddefault">20</TD>
+<TD CLASS="dddefault">17</TD>
+<TD CLASS="dddefault">3</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">Stanislaw I.  Dziurzynski (<ABBR title= "Primary">P</ABBR>)</TD>
+<TD CLASS="dddefault">08/29-12/16</TD>
+<TD CLASS="dddefault">MO 13</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+<TD NOWRAP CLASS="dddefault">Hybrid Course.</TD>
+</TR>
+<TR>
+<TD CLASS="dddefault"><ABBR title = "Not available for registration">NR</ABBR></TD>
+<TD CLASS="dddefault"><A HREF="/pls/sprod/bwckschd.p_disp_listcrse?term_in=201710&amp;subj_in=CSC&amp;crse_in=200&amp;crn_in=10679" onMouseOver="window.status='Detail';  return true" onFocus="window.status='Detail';  return true" onMouseOut="window.status='';  return true"onBlur="window.status='';  return true">10679</A></TD>
+<TD CLASS="dddefault">CSC</TD>
+<TD CLASS="dddefault">200</TD>
+<TD CLASS="dddefault">81</TD>
+<TD CLASS="dddefault">M</TD>
+<TD CLASS="dddefault">3.000</TD>
+<TD CLASS="dddefault">Info Mgmt/ProductivitySoftware</TD>
+<TD CLASS="dddefault">T</TD>
+<TD CLASS="dddefault">03:15 pm-04:30 pm</TD>
+<TD CLASS="dddefault">20</TD>
+<TD CLASS="dddefault">19</TD>
+<TD CLASS="dddefault">1</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">Joseph A.  Goralski (<ABBR title= "Primary">P</ABBR>)</TD>
+<TD CLASS="dddefault">08/29-12/16</TD>
+<TD CLASS="dddefault">MO 8</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+<TD NOWRAP CLASS="dddefault">Hybrid Course.</TD>
+</TR>
+<TR>
+<TD CLASS="dddefault"><ABBR title = "Not available for registration">NR</ABBR></TD>
+<TD CLASS="dddefault"><A HREF="/pls/sprod/bwckschd.p_disp_listcrse?term_in=201710&amp;subj_in=CSC&amp;crse_in=200&amp;crn_in=10680" onMouseOver="window.status='Detail';  return true" onFocus="window.status='Detail';  return true" onMouseOut="window.status='';  return true"onBlur="window.status='';  return true">10680</A></TD>
+<TD CLASS="dddefault">CSC</TD>
+<TD CLASS="dddefault">200</TD>
+<TD CLASS="dddefault">82</TD>
+<TD CLASS="dddefault">M</TD>
+<TD CLASS="dddefault">3.000</TD>
+<TD CLASS="dddefault">Info Mgmt/ProductivitySoftware</TD>
+<TD CLASS="dddefault">R</TD>
+<TD CLASS="dddefault">03:15 pm-04:30 pm</TD>
+<TD CLASS="dddefault">20</TD>
+<TD CLASS="dddefault">13</TD>
+<TD CLASS="dddefault">7</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">Joseph A.  Goralski (<ABBR title= "Primary">P</ABBR>)</TD>
+<TD CLASS="dddefault">08/29-12/16</TD>
+<TD CLASS="dddefault">MO 8</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+<TD NOWRAP CLASS="dddefault">Hybrid Course.</TD>
+</TR>
+<TR>
+<TD CLASS="dddefault"><ABBR title = "Not available for registration">NR</ABBR></TD>
+<TD CLASS="dddefault"><A HREF="/pls/sprod/bwckschd.p_disp_listcrse?term_in=201710&amp;subj_in=CSC&amp;crse_in=200&amp;crn_in=10681" onMouseOver="window.status='Detail';  return true" onFocus="window.status='Detail';  return true" onMouseOut="window.status='';  return true"onBlur="window.status='';  return true">10681</A></TD>
+<TD CLASS="dddefault">CSC</TD>
+<TD CLASS="dddefault">200</TD>
+<TD CLASS="dddefault">83</TD>
+<TD CLASS="dddefault">M</TD>
+<TD CLASS="dddefault">3.000</TD>
+<TD CLASS="dddefault">Info Mgmt/ProductivitySoftware</TD>
+<TD CLASS="dddefault">T</TD>
+<TD CLASS="dddefault">08:10 am-09:25 am</TD>
+<TD CLASS="dddefault">20</TD>
+<TD CLASS="dddefault">16</TD>
+<TD CLASS="dddefault">4</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">Angela C.  Scipio (<ABBR title= "Primary">P</ABBR>)</TD>
+<TD CLASS="dddefault">08/29-12/16</TD>
+<TD CLASS="dddefault">MO 8</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+<TD NOWRAP CLASS="dddefault">Hybrid Course.</TD>
+</TR>
+<TR>
+<TD CLASS="dddefault"><ABBR title = Closed>C</ABBR></TD>
+<TD CLASS="dddefault"><A HREF="/pls/sprod/bwckschd.p_disp_listcrse?term_in=201710&amp;subj_in=CSC&amp;crse_in=207&amp;crn_in=10682" onMouseOver="window.status='Detail';  return true" onFocus="window.status='Detail';  return true" onMouseOut="window.status='';  return true"onBlur="window.status='';  return true">10682</A></TD>
+<TD CLASS="dddefault">CSC</TD>
+<TD CLASS="dddefault">207</TD>
+<TD CLASS="dddefault">01</TD>
+<TD CLASS="dddefault">M</TD>
+<TD CLASS="dddefault">4.000</TD>
+<TD CLASS="dddefault">Computer Systems</TD>
+<TD CLASS="dddefault">TR</TD>
+<TD CLASS="dddefault">11:00 am-12:15 pm</TD>
+<TD CLASS="dddefault">15</TD>
+<TD CLASS="dddefault">15</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">Ataollah   Elahi (<ABBR title= "Primary">P</ABBR>)</TD>
+<TD CLASS="dddefault">08/29-12/16</TD>
+<TD CLASS="dddefault">JE 139B</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+</TR>
+<TR>
+<TD CLASS="dddefault">&nbsp;</TD>
+<TD CLASS="dddefault">&nbsp;</TD>
+<TD CLASS="dddefault">&nbsp;</TD>
+<TD CLASS="dddefault">&nbsp;</TD>
+<TD CLASS="dddefault">&nbsp;</TD>
+<TD CLASS="dddefault">&nbsp;</TD>
+<TD CLASS="dddefault">&nbsp;</TD>
+<TD CLASS="dddefault">&nbsp;</TD>
+<TD CLASS="dddefault">W</TD>
+<TD CLASS="dddefault">11:10 am-01:00 pm</TD>
+<TD CLASS="dddefault">&nbsp;</TD>
+<TD CLASS="dddefault">&nbsp;</TD>
+<TD CLASS="dddefault">&nbsp;</TD>
+<TD CLASS="dddefault">&nbsp;</TD>
+<TD CLASS="dddefault">&nbsp;</TD>
+<TD CLASS="dddefault">&nbsp;</TD>
+<TD CLASS="dddefault">Ataollah   Elahi </TD>
+<TD CLASS="dddefault">08/29-12/16</TD>
+<TD CLASS="dddefault">JE 139B</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+</TR>
+<TR>
+<TD CLASS="dddefault"><ABBR title = Closed>C</ABBR></TD>
+<TD CLASS="dddefault"><A HREF="/pls/sprod/bwckschd.p_disp_listcrse?term_in=201710&amp;subj_in=CSC&amp;crse_in=207&amp;crn_in=10683" onMouseOver="window.status='Detail';  return true" onFocus="window.status='Detail';  return true" onMouseOut="window.status='';  return true"onBlur="window.status='';  return true">10683</A></TD>
+<TD CLASS="dddefault">CSC</TD>
+<TD CLASS="dddefault">207</TD>
+<TD CLASS="dddefault">02</TD>
+<TD CLASS="dddefault">M</TD>
+<TD CLASS="dddefault">4.000</TD>
+<TD CLASS="dddefault">Computer Systems</TD>
+<TD CLASS="dddefault">M</TD>
+<TD CLASS="dddefault">05:00 pm-07:30 pm</TD>
+<TD CLASS="dddefault">15</TD>
+<TD CLASS="dddefault">15</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">Michael   Clark (<ABBR title= "Primary">P</ABBR>)</TD>
+<TD CLASS="dddefault">08/29-12/16</TD>
+<TD CLASS="dddefault">JE 139B</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+</TR>
+<TR>
+<TD CLASS="dddefault">&nbsp;</TD>
+<TD CLASS="dddefault">&nbsp;</TD>
+<TD CLASS="dddefault">&nbsp;</TD>
+<TD CLASS="dddefault">&nbsp;</TD>
+<TD CLASS="dddefault">&nbsp;</TD>
+<TD CLASS="dddefault">&nbsp;</TD>
+<TD CLASS="dddefault">&nbsp;</TD>
+<TD CLASS="dddefault">&nbsp;</TD>
+<TD CLASS="dddefault">R</TD>
+<TD CLASS="dddefault">05:00 pm-07:00 pm</TD>
+<TD CLASS="dddefault">&nbsp;</TD>
+<TD CLASS="dddefault">&nbsp;</TD>
+<TD CLASS="dddefault">&nbsp;</TD>
+<TD CLASS="dddefault">&nbsp;</TD>
+<TD CLASS="dddefault">&nbsp;</TD>
+<TD CLASS="dddefault">&nbsp;</TD>
+<TD CLASS="dddefault">Michael   Clark </TD>
+<TD CLASS="dddefault">08/29-12/16</TD>
+<TD CLASS="dddefault">JE 139B</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+</TR>
+<TR>
+<TD CLASS="dddefault"><ABBR title = Closed>C</ABBR></TD>
+<TD CLASS="dddefault"><A HREF="/pls/sprod/bwckschd.p_disp_listcrse?term_in=201710&amp;subj_in=CSC&amp;crse_in=212&amp;crn_in=10684" onMouseOver="window.status='Detail';  return true" onFocus="window.status='Detail';  return true" onMouseOut="window.status='';  return true"onBlur="window.status='';  return true">10684</A></TD>
+<TD CLASS="dddefault">CSC</TD>
+<TD CLASS="dddefault">212</TD>
+<TD CLASS="dddefault">01</TD>
+<TD CLASS="dddefault">M</TD>
+<TD CLASS="dddefault">3.000</TD>
+<TD CLASS="dddefault">Data Structures</TD>
+<TD CLASS="dddefault">MW</TD>
+<TD CLASS="dddefault">02:00 pm-03:15 pm</TD>
+<TD CLASS="dddefault">16</TD>
+<TD CLASS="dddefault">16</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">Imad N.  Antonios (<ABBR title= "Primary">P</ABBR>)</TD>
+<TD CLASS="dddefault">08/29-12/16</TD>
+<TD CLASS="dddefault">JE 139A</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+</TR>
+<TR>
+<TD CLASS="dddefault"><ABBR title = Closed>C</ABBR></TD>
+<TD CLASS="dddefault"><A HREF="/pls/sprod/bwckschd.p_disp_listcrse?term_in=201710&amp;subj_in=CSC&amp;crse_in=212&amp;crn_in=10685" onMouseOver="window.status='Detail';  return true" onFocus="window.status='Detail';  return true" onMouseOut="window.status='';  return true"onBlur="window.status='';  return true">10685</A></TD>
+<TD CLASS="dddefault">CSC</TD>
+<TD CLASS="dddefault">212</TD>
+<TD CLASS="dddefault">02</TD>
+<TD CLASS="dddefault">M</TD>
+<TD CLASS="dddefault">3.000</TD>
+<TD CLASS="dddefault">Data Structures</TD>
+<TD CLASS="dddefault">W</TD>
+<TD CLASS="dddefault">05:00 pm-07:30 pm</TD>
+<TD CLASS="dddefault">16</TD>
+<TD CLASS="dddefault">19</TD>
+<TD CLASS="dddefault">-3</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">Imad N.  Antonios (<ABBR title= "Primary">P</ABBR>)</TD>
+<TD CLASS="dddefault">08/29-12/16</TD>
+<TD CLASS="dddefault">JE 139A</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+</TR>
+<TR>
+<TD CLASS="dddefault"><ABBR title = "Not available for registration">NR</ABBR></TD>
+<TD CLASS="dddefault"><A HREF="/pls/sprod/bwckschd.p_disp_listcrse?term_in=201710&amp;subj_in=CSC&amp;crse_in=212&amp;crn_in=12412" onMouseOver="window.status='Detail';  return true" onFocus="window.status='Detail';  return true" onMouseOut="window.status='';  return true"onBlur="window.status='';  return true">12412</A></TD>
+<TD CLASS="dddefault">CSC</TD>
+<TD CLASS="dddefault">212</TD>
+<TD CLASS="dddefault">03</TD>
+<TD CLASS="dddefault">M</TD>
+<TD CLASS="dddefault">3.000</TD>
+<TD CLASS="dddefault">Data Structures</TD>
+<TD CLASS="dddefault">TR</TD>
+<TD CLASS="dddefault">12:25 pm-01:40 pm</TD>
+<TD CLASS="dddefault">16</TD>
+<TD CLASS="dddefault">14</TD>
+<TD CLASS="dddefault">2</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">MD S.  Hossain (<ABBR title= "Primary">P</ABBR>)</TD>
+<TD CLASS="dddefault">08/29-12/16</TD>
+<TD CLASS="dddefault">MO 13</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+</TR>
+<TR>
+<TD CLASS="dddefault">&nbsp;</TD>
+<TD CLASS="dddefault"><A HREF="/pls/sprod/bwckschd.p_disp_listcrse?term_in=201710&amp;subj_in=CSC&amp;crse_in=305&amp;crn_in=10686" onMouseOver="window.status='Detail';  return true" onFocus="window.status='Detail';  return true" onMouseOut="window.status='';  return true"onBlur="window.status='';  return true">10686</A></TD>
+<TD CLASS="dddefault">CSC</TD>
+<TD CLASS="dddefault">305</TD>
+<TD CLASS="dddefault">01</TD>
+<TD CLASS="dddefault">M</TD>
+<TD CLASS="dddefault">3.000</TD>
+<TD CLASS="dddefault">Computer Organization</TD>
+<TD CLASS="dddefault">MW</TD>
+<TD CLASS="dddefault">02:00 pm-03:15 pm</TD>
+<TD CLASS="dddefault">16</TD>
+<TD CLASS="dddefault">17</TD>
+<TD CLASS="dddefault">-1</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">Ataollah   Elahi (<ABBR title= "Primary">P</ABBR>)</TD>
+<TD CLASS="dddefault">08/29-12/16</TD>
+<TD CLASS="dddefault">MO 120</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+</TR>
+<TR>
+<TD CLASS="dddefault"><ABBR title = "Not available for registration">NR</ABBR></TD>
+<TD CLASS="dddefault"><A HREF="/pls/sprod/bwckschd.p_disp_listcrse?term_in=201710&amp;subj_in=CSC&amp;crse_in=321&amp;crn_in=10687" onMouseOver="window.status='Detail';  return true" onFocus="window.status='Detail';  return true" onMouseOut="window.status='';  return true"onBlur="window.status='';  return true">10687</A></TD>
+<TD CLASS="dddefault">CSC</TD>
+<TD CLASS="dddefault">321</TD>
+<TD CLASS="dddefault">01</TD>
+<TD CLASS="dddefault">M</TD>
+<TD CLASS="dddefault">3.000</TD>
+<TD CLASS="dddefault">Algorithm Design & Analysis</TD>
+<TD CLASS="dddefault">TR</TD>
+<TD CLASS="dddefault">03:15 pm-04:30 pm</TD>
+<TD CLASS="dddefault">16</TD>
+<TD CLASS="dddefault">9</TD>
+<TD CLASS="dddefault">7</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">Taraneh   BaradaranSeyed (<ABBR title= "Primary">P</ABBR>)</TD>
+<TD CLASS="dddefault">08/29-12/16</TD>
+<TD CLASS="dddefault">MO 113</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+</TR>
+<TR>
+<TD CLASS="dddefault"><ABBR title = Closed>C</ABBR></TD>
+<TD CLASS="dddefault"><A HREF="/pls/sprod/bwckschd.p_disp_listcrse?term_in=201710&amp;subj_in=CSC&amp;crse_in=324&amp;crn_in=10688" onMouseOver="window.status='Detail';  return true" onFocus="window.status='Detail';  return true" onMouseOut="window.status='';  return true"onBlur="window.status='';  return true">10688</A></TD>
+<TD CLASS="dddefault">CSC</TD>
+<TD CLASS="dddefault">324</TD>
+<TD CLASS="dddefault">01W</TD>
+<TD CLASS="dddefault">M</TD>
+<TD CLASS="dddefault">3.000</TD>
+<TD CLASS="dddefault">*Computer Ethics</TD>
+<TD CLASS="dddefault">MW</TD>
+<TD CLASS="dddefault">03:25 pm-04:40 pm</TD>
+<TD CLASS="dddefault">23</TD>
+<TD CLASS="dddefault">18</TD>
+<TD CLASS="dddefault">5</TD>
+<TD CLASS="dddefault">23</TD>
+<TD CLASS="dddefault">23</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">Terrell W.  Bynum (<ABBR title= "Primary">P</ABBR>)</TD>
+<TD CLASS="dddefault">08/29-12/16</TD>
+<TD CLASS="dddefault">MO 120</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+<TD NOWRAP CLASS="dddefault">Writing Course; Dual listed w/PHI 324-01W.</TD>
+</TR>
+<TR>
+<TD CLASS="dddefault">&nbsp;</TD>
+<TD CLASS="dddefault"><A HREF="/pls/sprod/bwckschd.p_disp_listcrse?term_in=201710&amp;subj_in=CSC&amp;crse_in=324&amp;crn_in=10689" onMouseOver="window.status='Detail';  return true" onFocus="window.status='Detail';  return true" onMouseOut="window.status='';  return true"onBlur="window.status='';  return true">10689</A></TD>
+<TD CLASS="dddefault">CSC</TD>
+<TD CLASS="dddefault">324</TD>
+<TD CLASS="dddefault">02W</TD>
+<TD CLASS="dddefault">M</TD>
+<TD CLASS="dddefault">3.000</TD>
+<TD CLASS="dddefault">*Computer Ethics</TD>
+<TD CLASS="dddefault">M</TD>
+<TD CLASS="dddefault">07:35 pm-10:05 pm</TD>
+<TD CLASS="dddefault">23</TD>
+<TD CLASS="dddefault">17</TD>
+<TD CLASS="dddefault">6</TD>
+<TD CLASS="dddefault">23</TD>
+<TD CLASS="dddefault">21</TD>
+<TD CLASS="dddefault">2</TD>
+<TD CLASS="dddefault">Richard   Volkman (<ABBR title= "Primary">P</ABBR>)</TD>
+<TD CLASS="dddefault">08/29-12/16</TD>
+<TD CLASS="dddefault">MO 120</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+<TD NOWRAP CLASS="dddefault">Dual listed w/PHI 324-02W</TD>
+</TR>
+<TR>
+<TD CLASS="dddefault"><ABBR title = "Not available for registration">NR</ABBR></TD>
+<TD CLASS="dddefault"><A HREF="/pls/sprod/bwckschd.p_disp_listcrse?term_in=201710&amp;subj_in=CSC&amp;crse_in=330&amp;crn_in=10690" onMouseOver="window.status='Detail';  return true" onFocus="window.status='Detail';  return true" onMouseOut="window.status='';  return true"onBlur="window.status='';  return true">10690</A></TD>
+<TD CLASS="dddefault">CSC</TD>
+<TD CLASS="dddefault">330</TD>
+<TD CLASS="dddefault">01</TD>
+<TD CLASS="dddefault">M</TD>
+<TD CLASS="dddefault">3.000</TD>
+<TD CLASS="dddefault">Software Design & Development</TD>
+<TD CLASS="dddefault">T</TD>
+<TD CLASS="dddefault">05:00 pm-07:30 pm</TD>
+<TD CLASS="dddefault">16</TD>
+<TD CLASS="dddefault">14</TD>
+<TD CLASS="dddefault">2</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">Mohammad Tariqul  Islam (<ABBR title= "Primary">P</ABBR>)</TD>
+<TD CLASS="dddefault">08/29-12/16</TD>
+<TD CLASS="dddefault">JE 139A</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+</TR>
+<TR>
+<TD CLASS="dddefault"><ABBR title = "Not available for registration">NR</ABBR></TD>
+<TD CLASS="dddefault"><A HREF="/pls/sprod/bwckschd.p_disp_listcrse?term_in=201710&amp;subj_in=CSC&amp;crse_in=330&amp;crn_in=10691" onMouseOver="window.status='Detail';  return true" onFocus="window.status='Detail';  return true" onMouseOut="window.status='';  return true"onBlur="window.status='';  return true">10691</A></TD>
+<TD CLASS="dddefault">CSC</TD>
+<TD CLASS="dddefault">330</TD>
+<TD CLASS="dddefault">02</TD>
+<TD CLASS="dddefault">M</TD>
+<TD CLASS="dddefault">3.000</TD>
+<TD CLASS="dddefault">Software Design & Development</TD>
+<TD CLASS="dddefault">TR</TD>
+<TD CLASS="dddefault">09:35 am-10:50 am</TD>
+<TD CLASS="dddefault">20</TD>
+<TD CLASS="dddefault">14</TD>
+<TD CLASS="dddefault">6</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">Mohammad Tariqul  Islam (<ABBR title= "Primary">P</ABBR>)</TD>
+<TD CLASS="dddefault">08/29-12/16</TD>
+<TD CLASS="dddefault">MO 8</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+</TR>
+<TR>
+<TD CLASS="dddefault">&nbsp;</TD>
+<TD CLASS="dddefault"><A HREF="/pls/sprod/bwckschd.p_disp_listcrse?term_in=201710&amp;subj_in=CSC&amp;crse_in=334&amp;crn_in=10692" onMouseOver="window.status='Detail';  return true" onFocus="window.status='Detail';  return true" onMouseOut="window.status='';  return true"onBlur="window.status='';  return true">10692</A></TD>
+<TD CLASS="dddefault">CSC</TD>
+<TD CLASS="dddefault">334</TD>
+<TD CLASS="dddefault">01</TD>
+<TD CLASS="dddefault">M</TD>
+<TD CLASS="dddefault">3.000</TD>
+<TD CLASS="dddefault">Human Computer Interactions</TD>
+<TD CLASS="dddefault">TR</TD>
+<TD CLASS="dddefault">11:00 am-12:15 pm</TD>
+<TD CLASS="dddefault">20</TD>
+<TD CLASS="dddefault">20</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">Chang Suk   Kim (<ABBR title= "Primary">P</ABBR>)</TD>
+<TD CLASS="dddefault">08/29-12/16</TD>
+<TD CLASS="dddefault">MO 113</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+</TR>
+<TR>
+<TD CLASS="dddefault"><ABBR title = "Not available for registration">NR</ABBR></TD>
+<TD CLASS="dddefault"><A HREF="/pls/sprod/bwckschd.p_disp_listcrse?term_in=201710&amp;subj_in=CSC&amp;crse_in=335&amp;crn_in=10693" onMouseOver="window.status='Detail';  return true" onFocus="window.status='Detail';  return true" onMouseOut="window.status='';  return true"onBlur="window.status='';  return true">10693</A></TD>
+<TD CLASS="dddefault">CSC</TD>
+<TD CLASS="dddefault">335</TD>
+<TD CLASS="dddefault">01</TD>
+<TD CLASS="dddefault">M</TD>
+<TD CLASS="dddefault">3.000</TD>
+<TD CLASS="dddefault">Database Mgt Systems Design</TD>
+<TD CLASS="dddefault">TR</TD>
+<TD CLASS="dddefault">01:50 pm-03:05 pm</TD>
+<TD CLASS="dddefault">20</TD>
+<TD CLASS="dddefault">10</TD>
+<TD CLASS="dddefault">10</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">MD S.  Hossain (<ABBR title= "Primary">P</ABBR>)</TD>
+<TD CLASS="dddefault">08/29-12/16</TD>
+<TD CLASS="dddefault">MO 113</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+</TR>
+<TR>
+<TD CLASS="dddefault"><ABBR title = "Not available for registration">NR</ABBR></TD>
+<TD CLASS="dddefault"><A HREF="/pls/sprod/bwckschd.p_disp_listcrse?term_in=201710&amp;subj_in=CSC&amp;crse_in=335&amp;crn_in=10694" onMouseOver="window.status='Detail';  return true" onFocus="window.status='Detail';  return true" onMouseOut="window.status='';  return true"onBlur="window.status='';  return true">10694</A></TD>
+<TD CLASS="dddefault">CSC</TD>
+<TD CLASS="dddefault">335</TD>
+<TD CLASS="dddefault">02</TD>
+<TD CLASS="dddefault">M</TD>
+<TD CLASS="dddefault">3.000</TD>
+<TD CLASS="dddefault">Database Mgt Systems Design</TD>
+<TD CLASS="dddefault">R</TD>
+<TD CLASS="dddefault">05:00 pm-07:30 pm</TD>
+<TD CLASS="dddefault">16</TD>
+<TD CLASS="dddefault">15</TD>
+<TD CLASS="dddefault">1</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">MD S.  Hossain (<ABBR title= "Primary">P</ABBR>)</TD>
+<TD CLASS="dddefault">08/29-12/16</TD>
+<TD CLASS="dddefault">JE 139A</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+</TR>
+<TR>
+<TD CLASS="dddefault"><ABBR title = "Not available for registration">NR</ABBR></TD>
+<TD CLASS="dddefault"><A HREF="/pls/sprod/bwckschd.p_disp_listcrse?term_in=201710&amp;subj_in=CSC&amp;crse_in=400&amp;crn_in=10695" onMouseOver="window.status='Detail';  return true" onFocus="window.status='Detail';  return true" onMouseOut="window.status='';  return true"onBlur="window.status='';  return true">10695</A></TD>
+<TD CLASS="dddefault">CSC</TD>
+<TD CLASS="dddefault">400</TD>
+<TD CLASS="dddefault">01W</TD>
+<TD CLASS="dddefault">M</TD>
+<TD CLASS="dddefault">3.000</TD>
+<TD CLASS="dddefault">*Computer Science Project Sem</TD>
+<TD CLASS="dddefault">M</TD>
+<TD CLASS="dddefault">05:00 pm-07:30 pm</TD>
+<TD CLASS="dddefault">20</TD>
+<TD CLASS="dddefault">18</TD>
+<TD CLASS="dddefault">2</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">Imad N.  Antonios (<ABBR title= "Primary">P</ABBR>)</TD>
+<TD CLASS="dddefault">08/29-12/16</TD>
+<TD CLASS="dddefault">MO 120</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+<TD NOWRAP CLASS="dddefault">Writing Course.</TD>
+</TR>
+<TR>
+<TD CLASS="dddefault"><ABBR title = Closed>C</ABBR></TD>
+<TD CLASS="dddefault"><A HREF="/pls/sprod/bwckschd.p_disp_listcrse?term_in=201710&amp;subj_in=CSC&amp;crse_in=424&ampamp;crn_in=10696" onMouseOver="window.status='Detail';  return true" onFocus="window.status='Detail';  return true" onMouseOut="window.status='';  return true"onBlur="window.status='';  return true">10696</A></TD>
+<TD CLASS="dddefault">CSC</TD>
+<TD CLASS="dddefault">424</TD>
+<TD CLASS="dddefault">01</TD>
+<TD CLASS="dddefault">M</TD>
+<TD CLASS="dddefault">3.000</TD>
+<TD CLASS="dddefault">System Administration</TD>
+<TD CLASS="dddefault">R</TD>
+<TD CLASS="dddefault">07:35 pm-10:05 pm</TD>
+<TD CLASS="dddefault">15</TD>
+<TD CLASS="dddefault">15</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">Nicholas Matthew  Brenckle (<ABBR title= "Primary">P</ABBR>)</TD>
+<TD CLASS="dddefault">08/29-12/16</TD>
+<TD CLASS="dddefault">JE 139B</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+</TR>
+<TR>
+<TD CLASS="dddefault"><ABBR title = Closed>C</ABBR></TD>
+<TD CLASS="dddefault"><A HREF="/pls/sprod/bwckschd.p_disp_listcrse?term_in=201710&amp;subj_in=CSC&amp;crse_in=425&amp;crn_in=10697" onMouseOver="window.status='Detail';  return true" onFocus="window.status='Detail';  return true" onMouseOut="window.status='';  return true"onBlur="window.status='';  return true">10697</A></TD>
+<TD CLASS="dddefault">CSC</TD>
+<TD CLASS="dddefault">425</TD>
+<TD CLASS="dddefault">01</TD>
+<TD CLASS="dddefault">M</TD>
+<TD CLASS="dddefault">3.000</TD>
+<TD CLASS="dddefault">Operating Systems</TD>
+<TD CLASS="dddefault">TR</TD>
+<TD CLASS="dddefault">12:25 pm-01:40 pm</TD>
+<TD CLASS="dddefault">16</TD>
+<TD CLASS="dddefault">16</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">Taraneh   BaradaranSeyed (<ABBR title= "Primary">P</ABBR>)</TD>
+<TD CLASS="dddefault">08/29-12/16</TD>
+<TD CLASS="dddefault">JE 139A</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+</TR>
+<TR>
+<TD CLASS="dddefault"><ABBR title = "Not available for registration">NR</ABBR></TD>
+<TD CLASS="dddefault"><A HREF="/pls/sprod/bwckschd.p_disp_listcrse?term_in=201710&amp;subj_in=CSC&amp;crse_in=443&amp;crn_in=10699" onMouseOver="window.status='Detail';  return true" onFocus="window.status='Detail';  return true" onMouseOut="window.status='';  return true"onBlur="window.status='';  return true">10699</A></TD>
+<TD CLASS="dddefault">CSC</TD>
+<TD CLASS="dddefault">443</TD>
+<TD CLASS="dddefault">01</TD>
+<TD CLASS="dddefault">M</TD>
+<TD CLASS="dddefault">3.000</TD>
+<TD CLASS="dddefault">Fund. of Internet Programming</TD>
+<TD CLASS="dddefault">MW</TD>
+<TD CLASS="dddefault">03:25 pm-04:40 pm</TD>
+<TD CLASS="dddefault">16</TD>
+<TD CLASS="dddefault">15</TD>
+<TD CLASS="dddefault">1</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">Mohammad Tariqul  Islam (<ABBR title= "Primary">P</ABBR>)</TD>
+<TD CLASS="dddefault">08/29-12/16</TD>
+<TD CLASS="dddefault">JE 139A</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+</TR>
+<TR>
+<TD CLASS="dddefault">&nbsp;</TD>
+<TD CLASS="dddefault"><A HREF="/pls/sprod/bwckschd.p_disp_listcrse?term_in=201710&amp;subj_in=CSC&amp;crse_in=465&amp;crn_in=10701" onMouseOver="window.status='Detail';  return true" onFocus="window.status='Detail';  return true" onMouseOut="window.status='';  return true"onBlur="window.status='';  return true">10701</A></TD>
+<TD CLASS="dddefault">CSC</TD>
+<TD CLASS="dddefault">465</TD>
+<TD CLASS="dddefault">01</TD>
+<TD CLASS="dddefault">M</TD>
+<TD CLASS="dddefault">3.000</TD>
+<TD CLASS="dddefault">Communications and Networks</TD>
+<TD CLASS="dddefault">TR</TD>
+<TD CLASS="dddefault">01:50 pm-03:05 pm</TD>
+<TD CLASS="dddefault">15</TD>
+<TD CLASS="dddefault">15</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">Ataollah   Elahi (<ABBR title= "Primary">P</ABBR>)</TD>
+<TD CLASS="dddefault">08/29-12/16</TD>
+<TD CLASS="dddefault">JE 139B</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+</TR>
+<TR>
+<TD CLASS="dddefault">&nbsp;</TD>
+<TD CLASS="dddefault"><A HREF="/pls/sprod/bwckschd.p_disp_listcrse?term_in=201710&amp;subj_in=CSC&amp;crse_in=477&amp;crn_in=10703" onMouseOver="window.status='Detail';  return true" onFocus="window.status='Detail';  return true" onMouseOut="window.status='';  return true"onBlur="window.status='';  return true">10703</A></TD>
+<TD CLASS="dddefault">CSC</TD>
+<TD CLASS="dddefault">477</TD>
+<TD CLASS="dddefault">01</TD>
+<TD CLASS="dddefault">M</TD>
+<TD CLASS="dddefault">3.000</TD>
+<TD CLASS="dddefault">Fundamentals of Data Mining</TD>
+<TD CLASS="dddefault">MW</TD>
+<TD CLASS="dddefault">03:25 pm-04:40 pm</TD>
+<TD CLASS="dddefault">20</TD>
+<TD CLASS="dddefault">11</TD>
+<TD CLASS="dddefault">9</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">John S.  DaPonte (<ABBR title= "Primary">P</ABBR>)</TD>
+<TD CLASS="dddefault">08/29-12/16</TD>
+<TD CLASS="dddefault">MO 113</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+</TR>
+<TR>
+<TD CLASS="dddefault">&nbsp;</TD>
+<TD CLASS="dddefault"><A HREF="/pls/sprod/bwckschd.p_disp_listcrse?term_in=201710&amp;subj_in=CSC&amp;crse_in=499&amp;crn_in=12601" onMouseOver="window.status='Detail';  return true" onFocus="window.status='Detail';  return true" onMouseOut="window.status='';  return true"onBlur="window.status='';  return true">12601</A></TD>
+<TD CLASS="dddefault">CSC</TD>
+<TD CLASS="dddefault">499</TD>
+<TD CLASS="dddefault">01W</TD>
+<TD CLASS="dddefault">M</TD>
+<TD CLASS="dddefault">1.000-6.000</TD>
+<TD CLASS="dddefault">*Independent Study & Research</TD>
+<TD CLASS="dddefault">&nbsp;</TD>
+<TD CLASS="dddefault"><ABBR title = "To Be Announced">TBA</ABBR></TD>
+<TD CLASS="dddefault">2</TD>
+<TD CLASS="dddefault">2</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">MD S.  Hossain (<ABBR title= "Primary">P</ABBR>)</TD>
+<TD CLASS="dddefault">08/29-12/16</TD>
+<TD CLASS="dddefault"><ABBR title = "To Be Announced">TBA</ABBR></TD>
+<TD NOWRAP CLASS="dddefault">Dean Permission</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+</TR>
+<TR>
+<TD CLASS="dddefault"><ABBR title = Closed>C</ABBR></TD>
+<TD CLASS="dddefault"><A HREF="/pls/sprod/bwckschd.p_disp_listcrse?term_in=201710&amp;subj_in=CSC&amp;crse_in=543&amp;crn_in=10704" onMouseOver="window.status='Detail';  return true" onFocus="window.status='Detail';  return true" onMouseOut="window.status='';  return true"onBlur="window.status='';  return true">10704</A></TD>
+<TD CLASS="dddefault">CSC</TD>
+<TD CLASS="dddefault">543</TD>
+<TD CLASS="dddefault">01</TD>
+<TD CLASS="dddefault">M</TD>
+<TD CLASS="dddefault">3.000</TD>
+<TD CLASS="dddefault">Web Programming</TD>
+<TD CLASS="dddefault">R</TD>
+<TD CLASS="dddefault">07:35 pm-10:05 pm</TD>
+<TD CLASS="dddefault">16</TD>
+<TD CLASS="dddefault">22</TD>
+<TD CLASS="dddefault">-6</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">Mohammad Tariqul  Islam (<ABBR title= "Primary">P</ABBR>)</TD>
+<TD CLASS="dddefault">08/29-12/16</TD>
+<TD CLASS="dddefault">JE 139A</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+</TR>
+<TR>
+<TD CLASS="dddefault"><ABBR title = "Not available for registration">NR</ABBR></TD>
+<TD CLASS="dddefault"><A HREF="/pls/sprod/bwckschd.p_disp_listcrse?term_in=201710&amp;subj_in=CSC&amp;crse_in=560&amp;crn_in=10705" onMouseOver="window.status='Detail';  return true" onFocus="window.status='Detail';  return true" onMouseOut="window.status='';  return true"onBlur="window.status='';  return true">10705</A></TD>
+<TD CLASS="dddefault">CSC</TD>
+<TD CLASS="dddefault">560</TD>
+<TD CLASS="dddefault">01</TD>
+<TD CLASS="dddefault">M</TD>
+<TD CLASS="dddefault">3.000</TD>
+<TD CLASS="dddefault">Software Quality</TD>
+<TD CLASS="dddefault">R</TD>
+<TD CLASS="dddefault">05:00 pm-07:30 pm</TD>
+<TD CLASS="dddefault">16</TD>
+<TD CLASS="dddefault">13</TD>
+<TD CLASS="dddefault">3</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">Amal A.  Abdel Raouf (<ABBR title= "Primary">P</ABBR>)</TD>
+<TD CLASS="dddefault">08/29-12/16</TD>
+<TD CLASS="dddefault">MO 8</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+</TR>
+<TR>
+<TD CLASS="dddefault"><ABBR title = Closed>C</ABBR></TD>
+<TD CLASS="dddefault"><A HREF="/pls/sprod/bwckschd.p_disp_listcrse?term_in=201710&amp;subj_in=CSC&amp;crse_in=563&amp;crn_in=10706" onMouseOver="window.status='Detail';  return true" onFocus="window.status='Detail';  return true" onMouseOut="window.status='';  return true"onBlur="window.status='';  return true">10706</A></TD>
+<TD CLASS="dddefault">CSC</TD>
+<TD CLASS="dddefault">563</TD>
+<TD CLASS="dddefault">01</TD>
+<TD CLASS="dddefault">M</TD>
+<TD CLASS="dddefault">3.000</TD>
+<TD CLASS="dddefault">Multithreaded Dist. Prgming</TD>
+<TD CLASS="dddefault">T</TD>
+<TD CLASS="dddefault">07:35 pm-10:05 pm</TD>
+<TD CLASS="dddefault">16</TD>
+<TD CLASS="dddefault">18</TD>
+<TD CLASS="dddefault">-2</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">Hrvoje   Podnar (<ABBR title= "Primary">P</ABBR>)</TD>
+<TD CLASS="dddefault">08/29-12/16</TD>
+<TD CLASS="dddefault">JE 139A</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+</TR>
+<TR>
+<TD CLASS="dddefault"><ABBR title = "Not available for registration">NR</ABBR></TD>
+<TD CLASS="dddefault"><A HREF="/pls/sprod/bwckschd.p_disp_listcrse?term_in=201710&amp;subj_in=CSC&amp;crse_in=568&amp;crn_in=10707" onMouseOver="window.status='Detail';  return true" onFocus="window.status='Detail';  return true" onMouseOut="window.status='';  return true"onBlur="window.status='';  return true">10707</A></TD>
+<TD CLASS="dddefault">CSC</TD>
+<TD CLASS="dddefault">568</TD>
+<TD CLASS="dddefault">01</TD>
+<TD CLASS="dddefault">M</TD>
+<TD CLASS="dddefault">3.000</TD>
+<TD CLASS="dddefault">Ethical Hacking & Pen. Testing</TD>
+<TD CLASS="dddefault">W</TD>
+<TD CLASS="dddefault">05:00 pm-07:30 pm</TD>
+<TD CLASS="dddefault">15</TD>
+<TD CLASS="dddefault">10</TD>
+<TD CLASS="dddefault">5</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">Matthew Gary  Bolduc (<ABBR title= "Primary">P</ABBR>)</TD>
+<TD CLASS="dddefault">08/29-12/16</TD>
+<TD CLASS="dddefault">JE 139B</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+</TR>
+<TR>
+<TD CLASS="dddefault"><ABBR title = Closed>C</ABBR></TD>
+<TD CLASS="dddefault"><A HREF="/pls/sprod/bwckschd.p_disp_listcrse?term_in=201710&amp;subj_in=CSC&amp;crse_in=590&amp;crn_in=12512" onMouseOver="window.status='Detail';  return true" onFocus="window.status='Detail';  return true" onMouseOut="window.status='';  return true"onBlur="window.status='';  return true">12512</A></TD>
+<TD CLASS="dddefault">CSC</TD>
+<TD CLASS="dddefault">590</TD>
+<TD CLASS="dddefault">01</TD>
+<TD CLASS="dddefault">M</TD>
+<TD CLASS="dddefault">3.000-4.000</TD>
+<TD CLASS="dddefault">Thesis I: Proposal Dev.</TD>
+<TD CLASS="dddefault">&nbsp;</TD>
+<TD CLASS="dddefault"><ABBR title = "To Be Announced">TBA</ABBR></TD>
+<TD CLASS="dddefault">1</TD>
+<TD CLASS="dddefault">1</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">MD S.  Hossain (<ABBR title= "Primary">P</ABBR>)</TD>
+<TD CLASS="dddefault">08/29-12/16</TD>
+<TD CLASS="dddefault"><ABBR title = "To Be Announced">TBA</ABBR></TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+</TR>
+<TR>
+<TD CLASS="dddefault"><ABBR title = Closed>C</ABBR></TD>
+<TD CLASS="dddefault"><A HREF="/pls/sprod/bwckschd.p_disp_listcrse?term_in=201710&amp;subj_in=CSC&amp;crse_in=590&amp;crn_in=12550" onMouseOver="window.status='Detail';  return true" onFocus="window.status='Detail';  return true" onMouseOut="window.status='';  return true"onBlur="window.status='';  return true">12550</A></TD>
+<TD CLASS="dddefault">CSC</TD>
+<TD CLASS="dddefault">590</TD>
+<TD CLASS="dddefault">02</TD>
+<TD CLASS="dddefault">M</TD>
+<TD CLASS="dddefault">3.000-4.000</TD>
+<TD CLASS="dddefault">Thesis I: Proposal Dev.</TD>
+<TD CLASS="dddefault">&nbsp;</TD>
+<TD CLASS="dddefault"><ABBR title = "To Be Announced">TBA</ABBR></TD>
+<TD CLASS="dddefault">2</TD>
+<TD CLASS="dddefault">2</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">Hrvoje   Podnar (<ABBR title= "Primary">P</ABBR>)</TD>
+<TD CLASS="dddefault">08/29-12/16</TD>
+<TD CLASS="dddefault"><ABBR title = "To Be Announced">TBA</ABBR></TD>
+<TD NOWRAP CLASS="dddefault">Dean Permission</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+</TR>
+<TR>
+<TD CLASS="dddefault"><ABBR title = Closed>C</ABBR></TD>
+<TD CLASS="dddefault"><A HREF="/pls/sprod/bwckschd.p_disp_listcrse?term_in=201710&amp;subj_in=CSC&amp;crse_in=590&amp;crn_in=12558" onMouseOver="window.status='Detail';  return true" onFocus="window.status='Detail';  return true" onMouseOut="window.status='';  return true"onBlur="window.status='';  return true">12558</A></TD>
+<TD CLASS="dddefault">CSC</TD>
+<TD CLASS="dddefault">590</TD>
+<TD CLASS="dddefault">03</TD>
+<TD CLASS="dddefault">M</TD>
+<TD CLASS="dddefault">3.000-4.000</TD>
+<TD CLASS="dddefault">Thesis I: Proposal Dev.</TD>
+<TD CLASS="dddefault">&nbsp;</TD>
+<TD CLASS="dddefault"><ABBR title = "To Be Announced">TBA</ABBR></TD>
+<TD CLASS="dddefault">2</TD>
+<TD CLASS="dddefault">2</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">Imad N.  Antonios (<ABBR title= "Primary">P</ABBR>)</TD>
+<TD CLASS="dddefault">08/29-12/16</TD>
+<TD CLASS="dddefault"><ABBR title = "To Be Announced">TBA</ABBR></TD>
+<TD NOWRAP CLASS="dddefault">Dean Permission</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+</TR>
+<TR>
+<TD CLASS="dddefault"><ABBR title = Closed>C</ABBR></TD>
+<TD CLASS="dddefault"><A HREF="/pls/sprod/bwckschd.p_disp_listcrse?term_in=201710&amp;subj_in=CSC&amp;crse_in=590&amp;crn_in=12566" onMouseOver="window.status='Detail';  return true" onFocus="window.status='Detail';  return true" onMouseOut="window.status='';  return true"onBlur="window.status='';  return true">12566</A></TD>
+<TD CLASS="dddefault">CSC</TD>
+<TD CLASS="dddefault">590</TD>
+<TD CLASS="dddefault">04</TD>
+<TD CLASS="dddefault">M</TD>
+<TD CLASS="dddefault">3.000-4.000</TD>
+<TD CLASS="dddefault">Thesis I: Proposal Dev.</TD>
+<TD CLASS="dddefault">&nbsp;</TD>
+<TD CLASS="dddefault"><ABBR title = "To Be Announced">TBA</ABBR></TD>
+<TD CLASS="dddefault">1</TD>
+<TD CLASS="dddefault">2</TD>
+<TD CLASS="dddefault">-1</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">Ataollah   Elahi (<ABBR title= "Primary">P</ABBR>)</TD>
+<TD CLASS="dddefault">08/29-12/16</TD>
+<TD CLASS="dddefault"><ABBR title = "To Be Announced">TBA</ABBR></TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+</TR>
+<TR>
+<TD CLASS="dddefault"><ABBR title = Closed>C</ABBR></TD>
+<TD CLASS="dddefault"><A HREF="/pls/sprod/bwckschd.p_disp_listcrse?term_in=201710&amp;subj_in=CSC&amp;crse_in=591&amp;crn_in=12493" onMouseOver="window.status='Detail';  return true" onFocus="window.status='Detail';  return true" onMouseOut="window.status='';  return true"onBlur="window.status='';  return true">12493</A></TD>
+<TD CLASS="dddefault">CSC</TD>
+<TD CLASS="dddefault">591</TD>
+<TD CLASS="dddefault">01</TD>
+<TD CLASS="dddefault">M</TD>
+<TD CLASS="dddefault">3.000</TD>
+<TD CLASS="dddefault">Thesis II: Thesis Completion</TD>
+<TD CLASS="dddefault">&nbsp;</TD>
+<TD CLASS="dddefault"><ABBR title = "To Be Announced">TBA</ABBR></TD>
+<TD CLASS="dddefault">1</TD>
+<TD CLASS="dddefault">1</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault">Hrvoje   Podnar (<ABBR title= "Primary">P</ABBR>)</TD>
+<TD CLASS="dddefault">08/29-12/16</TD>
+<TD CLASS="dddefault"><ABBR title = "To Be Announced">TBA</ABBR></TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+<TD NOWRAP CLASS="dddefault">&nbsp;</TD>
+</TR>
+</TABLE>
+<BR>
+<INPUT TYPE="submit" NAME="ADD_BTN" VALUE="Register">
+<INPUT TYPE="submit" NAME="ADD_BTN" VALUE="Add to WorkSheet">
+<INPUT TYPE="submit" NAME="ADD_BTN" VALUE="New Search">
+</FORM>
+
+<!--  ** START OF twbkwbis.P_CloseDoc **  -->
+<TABLE  CLASS="plaintable" SUMMARY="This is table displays line separator at end of the page."
+                                             WIDTH="100%" cellSpacing=0 cellPadding=0 border=0><TR><TD class="bgtabon" width="100%" colSpan=2><IMG SRC="/wtlgifs/web_transparent.gif" ALT="Transparent Image" CLASS="headerImg" TITLE="Transparent Image"  NAME="web_transparent" HSPACE=0 VSPACE=0 BORDER=0 HEIGHT=3 WIDTH=10></TD></TR></TABLE>
+<A HREF="#top" onMouseover="window.status='Skip to top of page'; return true" onMouseout="window.status=''; return true" OnFocus="window.status='Skip to top of page'; return true" onBlur="window.status=''; return true" class="skiplinks">Skip to top of page</A>
+</DIV>
+<DIV class="footerbeforediv">
+
+</DIV>
+<DIV class="footerlinksdiv">
+<SPAN class="pagefooterlinks">
+<MAP NAME="Look-Up_Classes_to_Add:__Links_F" title="Look-Up Classes to Add:  Links">
+<p>
+<A HREF="#skip_Look-Up_Classes_to_Add:__Links_F" onMouseover="window.status='Skip Look-Up Classes to Add:  Links'; return true" onMouseout="window.status=''; return true" onFocus="window.status='Skip Look-Up Classes to Add:  Links'; return true" onBlur="window.status=''; return true"  class="skiplinks">Skip Look-Up Classes to Add:  Links</A>
+<P>[ <A HREF="/pls/sprod/bwskfshd.P_CrseSchd" onMouseover="window.status='Student Schedule by Day & Time'; return true" onMouseout="window.status=''; return true" onFocus="window.status='Student Schedule by Day & Time'; return true" onBlur="window.status=''; return true" >Student Schedule by Day & Time</A>
+ | <A HREF="/pls/sprod/bwskfshd.P_CrseSchdDetl" onMouseover="window.status='Student Detail Schedule'; return true" onMouseout="window.status=''; return true" onFocus="window.status='Student Detail Schedule'; return true" onBlur="window.status=''; return true" >Student Detail Schedule</A>
+ | <A HREF="/pls/sprod/twbkwbis.P_GenMenu?name=bmenu.P_BillingMnu" onMouseover="window.status='View Fee Assessment'; return true" onMouseout="window.status=''; return true" onFocus="window.status='View Fee Assessment'; return true" onBlur="window.status=''; return true" >View Registration Fees/Pay Bill</A>
+ ]
+</MAP>
+</SPAN>
+<a name="skip_Look-Up_Classes_to_Add:__Links_F"></a>
+</DIV>
+<DIV class="footerafterdiv">
+
+</DIV>
+<DIV class="globalafterdiv">
+
+</DIV>
+<DIV class="globalfooterdiv">
+
+</DIV>
+<DIV class="pagefooterdiv">
+<SPAN class="releasetext">Release: 8.7.1.2</SPAN>
+</DIV>
+<DIV class="poweredbydiv">
+</DIV>
+<DIV class="div1"></DIV>
+<DIV class="div2"></DIV>
+<DIV class="div3"></DIV>
+<DIV class="div4"></DIV>
+<DIV class="div5"></DIV>
+<DIV class="div6"></DIV>
+<div class="banner_copyright"> <br><h5>© 2016 Ellucian Company L.P. and its affiliates.<br></h5></div>
+</BODY>
+</HTML>
