@@ -1,0 +1,46 @@
+#button-search{
+	margin-bottom: 50px;
+}
+
+table{
+ height:300px; 
+}
+
+
+thead{
+	height: 200px;
+  	width: 100%;
+}
+
+tbody{
+  overflow-y: scroll;
+  height: 200px;
+  width: 100%;
+  position: absolute;
+}
+
+tr:nth-child(even) {
+    background-color: #f1f3f4;
+}
+
+tbody > tr:hover {
+    background-color: #808080;
+}
+
+/*tr.tr-select {
+    background-color: #808080;
+    color: white;
+}
+
+tr.tr-select:hover {
+    background-color: #808080;
+    color: white;
+}
+
+tr.tr-highlight-select {
+    cursor: pointer;
+}
+
+.tr-highlight-select:hover {
+    background-color: #c0e4f9;
+}*/
