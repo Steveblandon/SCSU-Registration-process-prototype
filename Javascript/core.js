@@ -15,10 +15,7 @@ $(document).ready(function(){
 
 function loadData(id){
 	$.post("PHP/getDataTable.php", {type:id}, function(data, status){
-			$("#" + tableId).html(data);
-			children = $("#" + tableId + " > tbody").children();
-			for(var i=0; i < children.length; i++){
-				//check for issues now
-			}
-		});
+		$("#" + id).html(data);
+		$('[data-toggle="popover"]').popover();
+	});
 }

@@ -1,15 +1,17 @@
+.table-row-unselectable{
+	color : #bfbfbf;
+}
+
+.btn-group{
+	margin-top: 50px;
+}
+
 #button-search{
-	margin-bottom: 50px;
+	margin-bottom: 20px;
 }
 
 table{
- height:300px; 
-}
-
-
-thead{
-	height: 200px;
-  	width: 100%;
+ height:500px; 
 }
 
 tbody{
@@ -17,14 +19,12 @@ tbody{
   height: 200px;
   width: 100%;
   position: absolute;
+  cursor: pointer;
 }
 
-tr:nth-child(even) {
-    background-color: #f1f3f4;
-}
 
-tbody > tr:hover {
-    background-color: #808080;
+.table-row-selectable:hover {
+    background-color: #e6f3ff;
 }
 
 /*tr.tr-select {
