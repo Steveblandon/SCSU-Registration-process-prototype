@@ -1,3 +1,7 @@
+.table-row-selected{
+	background-color: #80c1ff;
+}
+
 .table-row-unselectable{
 	color : #bfbfbf;
 }
@@ -14,8 +18,12 @@ table{
  height:300px; 
 }
 
-tr{
+tbody > tr{
 	cursor: pointer;
+}
+
+thead > tr, .table-row-unselectable:hover{
+	cursor: default;
 }
 
 tbody{
@@ -29,6 +37,7 @@ tbody{
 .table-row-selectable:hover {
     background-color: #e6f3ff;
 }
+
 
 /*tr.tr-select {
     background-color: #808080;

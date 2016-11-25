@@ -27,7 +27,7 @@ while($row = $result->fetch_row()){
 	$i = 0;
 	$max = count($row);
 	if ($max == 0) echo "nothing";
-	echo "<tr>";
+	$useDefaultTag = 1;
 	if (strtolower($_POST["type"]) == "table-search"){
 		//do a search to see if this record conflicts with a record on schedule
 		$sql = "SELECT * FROM courses WHERE CourseNo LIKE '".$row[1]."' AND SectionNo LIKE '".$row[2]."'";
@@ -38,10 +38,11 @@ while($row = $result->fetch_row()){
 		$result3 = $conn->query($sql);
 		if (count($result3->fetch_row()) > 0){
 			echo "<tr class='table-row-unselectable' data-placement='bottom' data-toggle='popover' data-trigger='hover' title='Time Conflict:' data-content='the time period of this course section interferes with your current schedule!'>";
+			$useDefaultTag = 0;
 		}
-		else {
-			echo "<tr class='table-row-selectable'>";
-		}
+	}
+	if ($useDefaultTag == 1){
+		echo "<tr class='table-row-selectable'>";
 	}
 	while($i < $max){
 		echo "<td>" . $row[$i] . "</td>";
