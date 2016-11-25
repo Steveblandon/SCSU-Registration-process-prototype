@@ -8,7 +8,7 @@ if (strtolower($_POST["type"]) == "table-search"){
 	$sql = "SELECT Subject, CourseNo, SectionNo, Credits, Title, Days, CONCAT(DATE_FORMAT(startTime,'%h:%i%p'),'-',DATE_FORMAT(endTime,'%h:%i%p')) AS Time, Instructor, Date, Location FROM courses";
 }
 else if (strtolower($_POST["type"]) == "table-current"){
-	$sql = "SELECT * FROM schedule";
+	$sql = "SELECT Subject, CourseNo, SectionNo, Credits, Title, Days, CONCAT(DATE_FORMAT(startTime,'%h:%i%p'),'-',DATE_FORMAT(endTime,'%h:%i%p')) AS Time, Instructor, Date, Location FROM schedule";
 }
 
 

@@ -11,15 +11,18 @@
 }
 
 table{
- height:500px; 
+ height:300px; 
+}
+
+tr{
+	cursor: pointer;
 }
 
 tbody{
   overflow-y: scroll;
-  height: 200px;
+  height: 300px;
   width: 100%;
   position: absolute;
-  cursor: pointer;
 }
 
 
