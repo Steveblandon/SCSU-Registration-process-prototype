@@ -5,7 +5,8 @@ $sql = "";
 
 //add table connections here
 if (strtolower($_POST["type"]) == "table-search"){
-	$sql = "SELECT Subject, CourseNo, SectionNo, Credits, Title, Days, CONCAT(DATE_FORMAT(startTime,'%h:%i%p'),'-',DATE_FORMAT(endTime,'%h:%i%p')) AS Time, Instructor, Date, Location FROM courses";
+	//select only records that are not already in schedule
+	$sql = "SELECT courses.Subject, courses.CourseNo, courses.SectionNo, courses.Credits, courses.Title, courses.Days, CONCAT(DATE_FORMAT(courses.startTime,'%h:%i%p'),'-',DATE_FORMAT(courses.endTime,'%h:%i%p')) AS Time, courses.Instructor, courses.Date, courses.Location FROM courses LEFT JOIN schedule ON (courses.CourseNo = schedule.CourseNo) AND (courses.SectionNo = schedule.SectionNo) WHERE schedule.CourseNo IS NULL AND schedule.SectionNo IS NULL";
 }
 else if (strtolower($_POST["type"]) == "table-current"){
 	$sql = "SELECT Subject, CourseNo, SectionNo, Credits, Title, Days, CONCAT(DATE_FORMAT(startTime,'%h:%i%p'),'-',DATE_FORMAT(endTime,'%h:%i%p')) AS Time, Instructor, Date, Location FROM schedule";

@@ -26,9 +26,22 @@ $(document).ready(function(){
 		toggleSelection(this);
 		enableButton("#button-addto-schedule");
 	});
+	
 	$("table").on("click","tr.table-row-selected", function(){
 		toggleSelection(this);
 		disableButton("#button-addto-schedule");
+	});
+
+	$("div.btn-group").on("click","#button-addto-schedule", function(){
+		if($(this).attr("disabled") != "disabled"){
+			fields = $(($("tr.table-row-selected"))[0]).children();
+			cNo = $(fields[1]).text();
+			sNo = $(fields[2]).text();
+			$.post("PHP/addToSchedule.php", {courseNo:cNo,sectionNo:sNo}, function(data, status){
+				bootbox.alert(data);
+				loadData("table-search");
+			});
+		}
 	});
 });
 
