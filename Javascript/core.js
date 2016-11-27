@@ -29,10 +29,34 @@ $(document).ready(function(){
 			cNo = $(fields[1]).text();
 			sNo = $(fields[2]).text();
 			$.post("PHP/addToSchedule.php", {courseNo:cNo,sectionNo:sNo}, function(data, status){
-				bootbox.alert(data);
+				bootbox.alert("<b>"+data+"</b>");
 				loadData("table-search");
 			});
 		}
+	});
+
+
+	$("div.btn-group").on("click","#button-remove-course", function(){
+		bootbox.confirm("<b>Are you sure you want to remove this course from your schedule?</b>", function(result){
+			if (result === false) {
+		        $("tr.table-row-selected").addClass("table-row-selectable");
+				$("tr.table-row-selected").removeClass("table-row-selected");
+		    } 
+		    else {
+		        // result has a value
+		        fields = $(($("tr.table-row-selected"))[0]).children();
+				cNo = $(fields[1]).text();
+				sNo = $(fields[2]).text();
+				$.post("PHP/removeCourse.php", {courseNo:cNo,sectionNo:sNo}, function(data, status){
+					bootbox.alert("<b>"+data+"</b>");
+					loadData("table-current");
+				});
+		    }
+		    $("#button-remove-course").text("Submit");
+			$("#button-remove-course").removeClass("btn-danger");
+			$("#button-remove-course").addClass("btn-primary");
+			$("#button-remove-course").attr("id","button-submit-schedule");
+		});
 	});
 
 
@@ -41,6 +65,13 @@ $(document).ready(function(){
 		$("tr.table-row-selected").removeClass("table-row-selected");
 		toggleSelection(this);
 		enableButton("#button-addto-schedule");
+		if (tableId == "table-current"){
+			$("#button-submit-schedule").text("Remove");
+			$("#button-submit-schedule").removeClass("btn-primary");
+			$("#button-submit-schedule").addClass("btn-danger");
+			$("#button-submit-schedule").attr("id","button-remove-course");
+
+		}
 	});
 
 	
