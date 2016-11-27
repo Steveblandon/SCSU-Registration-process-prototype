@@ -52,10 +52,7 @@ $(document).ready(function(){
 					loadData("table-current");
 				});
 		    }
-		    $("#button-remove-course").text("Submit");
-			$("#button-remove-course").removeClass("btn-danger");
-			$("#button-remove-course").addClass("btn-primary");
-			$("#button-remove-course").attr("id","button-submit-schedule");
+		    changeRemoveToSubmitButton();
 		});
 	});
 
@@ -78,6 +75,7 @@ $(document).ready(function(){
 	$("table").on("click","tr.table-row-selected", function(){
 		toggleSelection(this);
 		disableButton("#button-addto-schedule");
+		changeRemoveToSubmitButton();
 	});
 
 	$("#button-search").on("click", function(){
@@ -109,6 +107,13 @@ $(document).ready(function(){
 });
 
 
+
+function changeRemoveToSubmitButton(){
+	$("#button-remove-course").text("Submit");
+	$("#button-remove-course").removeClass("btn-danger");
+	$("#button-remove-course").addClass("btn-primary");
+	$("#button-remove-course").attr("id","button-submit-schedule");
+}
 
 function loadSearchCriteria(elementName, val){
 	$.post("PHP/getSearchOptions.php",{field:elementName, value:val}, function(data, status){
