@@ -1,9 +1,11 @@
 $(document).ready(function(){
 	//load current schedule table by default
+	searchCriteria = "";
 	tableId = "table-current";
 	loadData(tableId);
 
-	$("a[data-toggle='tab']").click(function(){
+
+	$("a[data-toggle='tab']").on("click", function(){
 		tableId = "";
 		if ($(this).attr("id") == "tab1"){
 			tableId = "table-current";
@@ -20,17 +22,6 @@ $(document).ready(function(){
 		loadData(tableId);
 	});
 
-	$("table").on("click","tr.table-row-selectable", function(){
-		$("tr.table-row-selected").addClass("table-row-selectable");
-		$("tr.table-row-selected").removeClass("table-row-selected");
-		toggleSelection(this);
-		enableButton("#button-addto-schedule");
-	});
-	
-	$("table").on("click","tr.table-row-selected", function(){
-		toggleSelection(this);
-		disableButton("#button-addto-schedule");
-	});
 
 	$("div.btn-group").on("click","#button-addto-schedule", function(){
 		if($(this).attr("disabled") != "disabled"){
@@ -43,9 +34,80 @@ $(document).ready(function(){
 			});
 		}
 	});
+
+
+	$("table").on("click","tr.table-row-selectable", function(){
+		$("tr.table-row-selected").addClass("table-row-selectable");
+		$("tr.table-row-selected").removeClass("table-row-selected");
+		toggleSelection(this);
+		enableButton("#button-addto-schedule");
+	});
+
+	
+	$("table").on("click","tr.table-row-selected", function(){
+		toggleSelection(this);
+		disableButton("#button-addto-schedule");
+	});
+
+	$("#button-search").on("click", function(){
+		loadSearchCriteria("", "--ALL--");
+	});
+
+
+	$("select").on("change", function(){
+		//dynamic updating of remaining options
+		elementName = $(this).attr("name");
+		id = $(this).attr("id");
+		val = $("#"+id+" option:selected").text();
+		loadSearchCriteria(elementName, val);
+	});
+
+
+	$("form").on("submit",function(){
+		event.preventDefault();
+		tab = $(".nav-tabs").children();
+		$(tab[0]).removeClass("active");
+		$(tab[1]).addClass("active");
+		pane = $(".tab-content").children();
+		$(pane[0]).removeClass("active");
+		$(pane[1]).addClass("active");
+		searchCriteria = $(this).serialize();
+		loadData("table-search");
+		$("#modal-search-container").modal("hide");
+	});
 });
 
 
+
+function loadSearchCriteria(elementName, val){
+	$.post("PHP/getSearchOptions.php",{field:elementName, value:val}, function(data, status){
+		selections = $("#form-search").find("select");
+		sCount = selections.length;
+		fields = [];
+		for (i=0; i < sCount; i++){
+			name = ($(selections[i]).attr("name"));
+			if (name != "undefined"){
+				fields.push(name.toLowerCase());
+			}
+		}
+		options = $.parseHTML(data);
+		optionCount = options.length;
+		selection = "";
+		for (i=0; i < optionCount; i++){
+			item = ($(options[i]).text());
+			if (fields.indexOf(item.toLowerCase()) != -1){
+				selOpt = $("#form-input-" + item.toLowerCase()+" option:selected").text();
+				if(selOpt == "--ALL--" || selOpt == ""){
+					selection = "#form-input-" + item.toLowerCase();
+					$(selection).html("<option selected>--ALL--</option>");
+				}
+			}
+			else{
+				$(selection).html($(selection).html() + "<option>"+item+"</option>");
+			}
+		}
+	});
+}
 
 function toggleSelection(element){
 	$(element).toggleClass("table-row-selected");
@@ -64,9 +126,9 @@ function enableButton(id){
 	$(id).addClass('btn-primary');	
 }
 
-
 function loadData(id){
-	$.post("PHP/getDataTable.php", {type:id}, function(data, status){
+	searchCriteria = searchCriteria + "&type="+id;
+	$.post("PHP/getDataTable.php", searchCriteria, function(data, status){
 		$("#" + id).html(data);
 		$('[data-toggle="popover"]').popover();
 	});
