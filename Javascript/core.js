@@ -15,8 +15,7 @@ $(document).ready(function(){
 		}
 		else{
 			tableId = "table-search";
-			$("#button-submit-schedule").text("Add to Schedule");
-			$("#button-submit-schedule").attr("id","button-addto-schedule");
+			addToScheduleButton();
 			disableButton("#button-addto-schedule");
 		}
 		loadData(tableId);
@@ -103,10 +102,18 @@ $(document).ready(function(){
 		searchCriteria = $(this).serialize();
 		loadData("table-search");
 		$("#modal-search-container").modal("hide");
+		addToScheduleButton();
+		disableButton("#button-addto-schedule");
 	});
 });
 
 
+function addToScheduleButton(){
+	$("#button-submit-schedule").text("Add to Schedule");
+	$("#button-submit-schedule").attr("id","button-addto-schedule");
+	$("#button-remove-course").text("Add to Schedule");
+	$("#button-remove-course").attr("id","button-addto-schedule");
+}
 
 function changeRemoveToSubmitButton(){
 	$("#button-remove-course").text("Submit");
@@ -154,6 +161,7 @@ function disableButton(id){
 	$(id).attr('disabled','true');
 	$(id).addClass('btn-default');
 	$(id).removeClass('btn-primary');
+	$(id).removeClass('btn-danger');
 }
 
 function enableButton(id){
